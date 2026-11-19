@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-labelledby="t d">
+<title id="t">Программа и один проанализированный пакет</title>
+<desc id="d">Три карточки. Кинетика ферментации: зарегистрированный первичный трек (газообразование, мутность и время до начала, индексы FAI, FDI, FPI), данных в репозитории нет, не сделано. Окрашивание: протокол метиленового синего зарегистрирован; первый пакет без окрашивания, в ожидании. Плотность по снимкам: 990 снимков микроскопии в 3 циклах, счёт клеток и занятость по каналам, проанализировано, предварительно. Ниже зарегистрированный дизайн: 11 гипотез, группы контроль, CH19, CH21, CH17 и CH17+CH19; в данных четыре группы из пяти.</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='520' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>Программа и один проанализированный пакет</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Зарегистрировано шире, чем измерено</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>ПРОГРАММА</text>
+<rect x='24' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='38' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Кинетика ферментации</text>
+<text x='38' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Зарегистрированный первичный трек: газ,</text>
+<text x='38' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>мутность, время до начала; индексы FAI, FDI,</text>
+<text x='38' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>FPI</text>
+<text x='38' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Данных по ферментации, газу и OD600 в</text>
+<text x='38' y='231.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>репозитории нет</text>
+<text x='38' y='252.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffa657' text-anchor='start' font-weight='800'>✕ НЕ СДЕЛАНО</text>
+<rect x='414' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='428' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Окрашивание жизнеспособности</text>
+<text x='428' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Протокол метиленового синего зарегистрирован</text>
+<text x='428' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>на 24 ч и 48 ч</text>
+<text x='428' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Первый пакет без окрашивания: только</text>
+<text x='428' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>плотность, не живые/мёртвые</text>
+<text x='428' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='start' font-weight='800'>◇ В ОЖИДАНИИ</text>
+<rect x='804' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='818' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Плотность по снимкам</text>
+<text x='818' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>990 снимков микроскопии, 3 цикла, три метода:</text>
+<text x='818' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>счёт, занятость, слепой LLM</text>
+<text x='818' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Отчёт 2026-06-09: предварительный сигнал, не</text>
+<text x='818' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>подтверждение</text>
+<text x='818' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='start' font-weight='800'>◧ ПРЕДВАРИТЕЛЬНО</text>
+<rect x='24' y='312' width='1152' height='150' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='38' y='343.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Зарегистрированный дизайн</text>
+<text x='38' y='363.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>11 гипотез; группы: контроль CH0, CH19, CH21, CH17, CH17+CH19</text>
+<text x='38' y='383.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>В данных четыре группы (CH0, CH17, CH19, CH21): комбинированной</text>
+<text x='38' y='403.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>группы CH17+CH19 в данных нет</text>
+<text x='38' y='423.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Двойное слепое РКИ, N = 25–50 — зарегистрированный план; на практике</text>
+<text x='38' y='443.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>ослепление только при оценке</text>
+<text x='24' y='486' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Источники: README (архив), reports/experiment_protocol_ru.md,</text>
+<text x='24' y='506' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>reports/2026-06-09_density-analysis/report_ru.md.</text>
+</svg>

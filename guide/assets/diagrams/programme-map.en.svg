@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-labelledby="t d">
+<title id="t">Registered programme and the one analysed batch</title>
+<desc id="d">Three cards. Fermentation kinetics: the registered primary programme (gas production, turbidity and time to onset, indices FAI, FDI, FPI), no data in the repository, not done. Viability stain: methylene blue protocol registered; the first batch used no stain, pending. Density imaging: 990 microscopy images in 3 cycles, cell count and occupancy by channel, analysed and preliminary. Below, the registered design: 11 hypotheses, groups control, CH19, CH21, CH17 and CH17+CH19; the data holds four of the five groups.</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='520' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>Registered programme and the one analysed batch</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>What was registered is wider than what was measured</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>PROGRAMME</text>
+<rect x='24' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='38' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Fermentation kinetics</text>
+<text x='38' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Registered primary track: gas, turbidity, time to</text>
+<text x='38' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>onset; indices FAI, FDI, FPI</text>
+<text x='38' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>No fermentation, gas or OD600 data in the</text>
+<text x='38' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>repository</text>
+<text x='38' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffa657' text-anchor='start' font-weight='800'>✕ NOT DONE</text>
+<rect x='414' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='428' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Viability stain</text>
+<text x='428' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Methylene blue protocol registered for 24 h and 48</text>
+<text x='428' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>h</text>
+<text x='428' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>The first batch used no stain: density only, not</text>
+<text x='428' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>live/dead</text>
+<text x='428' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='start' font-weight='800'>◇ PENDING</text>
+<rect x='804' y='100' width='372' height='190' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='818' y='131.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Density imaging</text>
+<text x='818' y='151.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>990 microscopy images, 3 cycles, three methods:</text>
+<text x='818' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>count, occupancy, blind LLM</text>
+<text x='818' y='191.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Report of 2026-06-09: a preliminary signal, not</text>
+<text x='818' y='211.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>confirmatory</text>
+<text x='818' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='start' font-weight='800'>◧ PRELIMINARY</text>
+<rect x='24' y='312' width='1152' height='150' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='38' y='343.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Registered design</text>
+<text x='38' y='363.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>11 hypotheses; groups: control CH0, CH19, CH21, CH17, CH17+CH19</text>
+<text x='38' y='383.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>The data holds four groups (CH0, CH17, CH19, CH21): the combined</text>
+<text x='38' y='403.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>group CH17+CH19 is not in the data</text>
+<text x='38' y='423.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Double-blind RCT, N = 25–50 is the registered plan; blinding in</text>
+<text x='38' y='443.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>practice is at scoring only</text>
+<text x='24' y='486' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Sources: README (archive), reports/experiment_protocol_en.md,</text>
+<text x='24' y='506' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>reports/2026-06-09_density-analysis/report_en.md.</text>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-labelledby="t d">
+<title id="t">Plan versus what the repository records</title>
+<desc id="d">Two lanes of eight events, in order, not to scale. Lane one, the plan drawn in the old README: Mar 28 Team assembled, protocol defined; Mar 29 Emitter upgrade 0.7 W to 60 W / 144 W; Mar 31 Microscopy and staining validated; Apr 4 OSF preregistration submitted; Apr 7 OSF registration accepted; Q2 2026 Irradiation experiments begin; Q3–Q4 2026 Data collection and CV analysis; Q3–Q4 2026 Publication preparation. Lane two, what the repository records: 2026-03-28 Repository created (first commit); 2026-04-04 OSF project osf.io/vxkum registered; 2026-04-19 First photos observed (198 dated, to 2026-04-22); 2026-05-06 Photo hub and manifest added to the repository; 2026-06-09 Density report v2: preliminary signal; 2026-06-10 Preregistration file first committed, results already in it; 2026-07-18 Last change: README aligned to the house template; 2026-11-19 Showcase restructuring (this change).</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='590' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>Plan versus what the repository records</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Not to scale; recorded dates come from git history or repository files</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>TIMELINE</text>
+<text x='24' y='112' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#ffcf5c' text-anchor='start' font-weight='800'>THE PLAN (diagram of the old README)</text>
+<line x1='24' y1='130' x2='1176' y2='130' stroke='#ffcf5c' stroke-width='2' stroke-opacity='0.6'/>
+<circle cx='92.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='24.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='34.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 28</text>
+<text x='34.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Team assembled,</text>
+<text x='34.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>protocol defined</text>
+<circle cx='237.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='169.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='179.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 29</text>
+<text x='179.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Emitter upgrade</text>
+<text x='179.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>0.7 W to 60 W /</text>
+<text x='179.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>144 W</text>
+<circle cx='382.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='314.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='324.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 31</text>
+<text x='324.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Microscopy and</text>
+<text x='324.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>staining validated</text>
+<circle cx='527.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='459.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='469.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Apr 4</text>
+<text x='469.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF</text>
+<text x='469.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>preregistration</text>
+<text x='469.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>submitted</text>
+<circle cx='672.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='604.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='614.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Apr 7</text>
+<text x='614.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF registration</text>
+<text x='614.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>accepted</text>
+<circle cx='817.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='749.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='759.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q2 2026</text>
+<text x='759.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Irradiation</text>
+<text x='759.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>experiments</text>
+<text x='759.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>begin</text>
+<circle cx='962.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='894.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='904.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q3–Q4 2026</text>
+<text x='904.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Data collection</text>
+<text x='904.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>and CV analysis</text>
+<circle cx='1107.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='1039.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='1049.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q3–Q4 2026</text>
+<text x='1049.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Publication</text>
+<text x='1049.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>preparation</text>
+<text x='24' y='312' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='800'>RECORDED IN THE REPOSITORY</text>
+<line x1='24' y1='330' x2='1176' y2='330' stroke='#4ecdc4' stroke-width='2' stroke-opacity='0.6'/>
+<circle cx='92.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='24.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='34.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-03-28</text>
+<text x='34.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Repository</text>
+<text x='34.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>created (first</text>
+<text x='34.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>commit)</text>
+<circle cx='237.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='169.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='179.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-04-04</text>
+<text x='179.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF project</text>
+<text x='179.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>osf.io/vxkum</text>
+<text x='179.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>registered</text>
+<circle cx='382.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='314.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='324.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-04-19</text>
+<text x='324.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>First photos</text>
+<text x='324.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>observed (198</text>
+<text x='324.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>dated, to</text>
+<text x='324.0' y='452.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>2026-04-22)</text>
+<circle cx='527.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='459.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='469.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-05-06</text>
+<text x='469.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Photo hub and</text>
+<text x='469.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>manifest added</text>
+<text x='469.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>to the repository</text>
+<circle cx='672.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='604.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='614.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-06-09</text>
+<text x='614.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Density report</text>
+<text x='614.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>v2: preliminary</text>
+<text x='614.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>signal</text>
+<circle cx='817.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='749.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='759.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-06-10</text>
+<text x='759.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Preregistration</text>
+<text x='759.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>file first</text>
+<text x='759.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>committed,</text>
+<text x='759.0' y='452.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>results already in</text>
+<text x='759.0' y='472.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>it</text>
+<circle cx='962.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='894.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='904.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-07-18</text>
+<text x='904.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Last change:</text>
+<text x='904.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>README aligned</text>
+<text x='904.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>to the house</text>
+<text x='904.0' y='452.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>template</text>
+<circle cx='1107.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='1049.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-11-19</text>
+<text x='1049.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Showcase</text>
+<text x='1049.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>restructuring</text>
+<text x='1049.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>(this change)</text>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='none' stroke='#070b18' stroke-width='4'/>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='none' stroke='#4ecdc4' stroke-width='2' stroke-dasharray='6 5'/>
+<text x='24' y='556' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Irradiation, fermentation and publication steps of the plan have no</text>
+<text x='24' y='576' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>recorded result yet.</text>
+</svg>
