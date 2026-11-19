@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" width="1200" height="510" role="img" aria-labelledby="t d">
+<title id="t">Patent connection as the earlier README drew it</title>
+<desc id="d">Redrawn from the earlier diagram charts/mermaid/retry_1.png. The application KZ 2025/1095.1, Fractal Biomedical Hyperbolic Field System, status Substantive Exam, leads to the Hyperbolic Field emitter technology, which leads to four studies: this study (Saccharomyces cerevisiae), the blood plasma study, the agricultural study and the DAAT crystal study.</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='510' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>Patent connection as the earlier README drew it</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Earlier diagram, redrawn; an application is not a granted patent</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>IP · REDRAWN</text>
+<rect x='360.0' y='96' width='480' height='118' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='600.0' y='132.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>KZ 2025/1095.1</text>
+<text x='600.0' y='152.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Fractal Biomedical Hyperbolic Field System</text>
+<text x='600.0' y='172.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Substantive Exam</text>
+<text x='600.0' y='193.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ APPLICATION</text>
+<rect x='360.0' y='244' width='480' height='56' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='600.0' y='280.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Hyperbolic Field emitter technology</text>
+<defs><marker id='mffcf5c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0,0 L10,5 L0,10z' fill='#ffcf5c'/></marker></defs>
+<path d='M600.0,217.0 L600.0,241.0' fill='none' stroke='#ffcf5c' stroke-width='2' marker-end='url(#mffcf5c)'></path>
+<rect x='24' y='350' width='276' height='70' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='162.0' y='383.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>This study</text>
+<text x='162.0' y='403.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Saccharomyces cerevisiae</text>
+<defs><marker id='m6f9bff' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0,0 L10,5 L0,10z' fill='#6f9bff'/></marker></defs>
+<path d='M600.0,303.0 L600.0,326.0 L162.0,326.0 L162.0,347.0' fill='none' stroke='#6f9bff' stroke-width='2' marker-end='url(#m6f9bff)'></path>
+<rect x='316' y='350' width='276' height='70' rx='12' fill='#0b1430' stroke='#8ea0d6' stroke-width='1.6'/>
+<text x='454.0' y='393.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Blood plasma study</text>
+<path d='M600.0,303.0 L600.0,326.0 L454.0,326.0 L454.0,347.0' fill='none' stroke='#6f9bff' stroke-width='2' marker-end='url(#m6f9bff)'></path>
+<rect x='608' y='350' width='276' height='70' rx='12' fill='#0b1430' stroke='#8ea0d6' stroke-width='1.6'/>
+<text x='746.0' y='393.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Agricultural study</text>
+<path d='M600.0,303.0 L600.0,326.0 L746.0,326.0 L746.0,347.0' fill='none' stroke='#6f9bff' stroke-width='2' marker-end='url(#m6f9bff)'></path>
+<rect x='900' y='350' width='276' height='70' rx='12' fill='#0b1430' stroke='#8ea0d6' stroke-width='1.6'/>
+<text x='1038.0' y='393.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>DAAT crystal study</text>
+<path d='M600.0,303.0 L600.0,326.0 L1038.0,326.0 L1038.0,347.0' fill='none' stroke='#6f9bff' stroke-width='2' marker-end='url(#m6f9bff)'></path>
+<text x='24' y='476' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>As the earlier README states it; the repository holds no filing text</text>
+<text x='24' y='496' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>and does not name the applicants.</text>
+</svg>

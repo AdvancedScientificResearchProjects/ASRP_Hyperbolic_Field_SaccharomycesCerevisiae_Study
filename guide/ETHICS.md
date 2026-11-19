@@ -26,12 +26,12 @@ The subject of the study is yeast, so there is no participant data. The photogra
 ### IP status
 
 - The linked filing KZ 2025/1095.1 is a patent **application** (stated status: substantive examination). It is not a granted patent and it does not validate the field effect.
-- By the owner's ruling the applicants of the Kazakhstan filings are individuals (this repository states no applicant); the company is a correspondence address or fee payer only ([Ecosystem](ECOSYSTEM.md#patent-connection)).
+- This repository does not name the applicants of the Kazakhstan filings; the company is a correspondence address or fee payer only; an application is not a granted patent ([Ecosystem](ECOSYSTEM.md#patent-connection)).
 - The study text is licensed CC-BY-NC-ND 4.0 (below).
 
 ### Before this repository is made public
 
-The repository is private. Points a reviewer should settle first, taken from [Open questions](OPEN.md): whether the preregistration file may be described as a registration, the wording of the README's results claims against the report, and the residential-style address and personal details of the earlier README (kept only in the archived copy).
+The repository is public. Points a reviewer should settle first, taken from [Open questions](OPEN.md): whether the preregistration file may be described as a registration, the wording of the README's results claims against the report, and the residential-style address and personal details of the earlier README (kept only in the archived copy).
 
 ## Support and contact
 

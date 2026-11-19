@@ -75,7 +75,7 @@ BANNER = {
     "en": {
         "title": "Hyperbolic Field × Yeast",
         "kicker": "SACCHAROMYCES CEREVISIAE STUDY",
-        "tag": "PRIVATE REPO · RESULTS PRELIMINARY",
+        "tag": "PUBLIC REPO · RESULTS PRELIMINARY",
         "sub": ["Does a structured field change how yeast", "divides? One imaging batch so far"],
         "chart": "mean cells per 100× field, cycles 2–3",
         "chips": ["{images_total} images", "{cycles} experiment cycles", "{hypotheses} hypotheses"],
@@ -88,7 +88,7 @@ BANNER = {
     "ru": {
         "title": "Гиперболическое поле × дрожжи",
         "kicker": "ИССЛЕДОВАНИЕ SACCHAROMYCES CEREVISIAE",
-        "tag": "ПРИВАТНЫЙ РЕПО · РЕЗУЛЬТАТЫ ПРЕДВАРИТЕЛЬНЫЕ",
+        "tag": "ПУБЛИЧНЫЙ РЕПО · РЕЗУЛЬТАТЫ ПРЕДВАРИТЕЛЬНЫЕ",
         "sub": ["Меняет ли структурированное поле деление", "дрожжей? Пока один пакет снимков"],
         "chart": "средний счёт клеток на поле 100×, циклы 2–3",
         "chips": ["{images_total} снимков", "{cycles} цикла эксперимента", "{hypotheses} гипотез"],
@@ -505,7 +505,7 @@ ECO = {
                  ("Emitter programs", ["Control software of the emitters", "this study logs channel identifiers only"], TEAL)],
         "right": [("Patent application", ["KZ 2025/1095.1, substantive exam", "same hardware family; not a granted patent"], AMBER),
                   ("Sibling studies", ["Agricultural (plants, seeds) and crystal studies", "listed only, nothing is imported"], MUTED)],
-        "up": "channel meaning", "up2": "hardware", "foot": "Per the owner ruling the applicants are individuals; the company is a correspondence address only.",
+        "up": "channel meaning", "up2": "hardware", "foot": "The repository does not name the applicants; an application is not a granted patent.",
     },
     "ru": {
         "title": "От чего зависит это исследование",
@@ -520,7 +520,7 @@ ECO = {
                  ("Программы излучателей", ["ПО управления излучателями", "это исследование логирует только идентификаторы каналов"], TEAL)],
         "right": [("Патентная заявка", ["KZ 2025/1095.1, экспертиза по существу", "то же аппаратное семейство; не выданный патент"], AMBER),
                   ("Смежные исследования", ["Сельскохозяйственное (растения, семена) и кристаллов", "только перечислены, ничего не импортируется"], MUTED)],
-        "up": "смысл каналов", "up2": "аппаратура", "foot": "По решению владельца заявители физические лица; компания только адрес для переписки.",
+        "up": "смысл каналов", "up2": "аппаратура", "foot": "Репозиторий заявителей не называет; заявка — не выданный патент.",
     },
 }
 
@@ -546,6 +546,233 @@ def ecosystem(lang):
     return "\n".join(cv.o + ["</svg>\n"])
 
 
+# --- redraws of the four earlier mermaid PNGs (charts/mermaid/*.png) ----------------------------
+DECL = {"en": ("◇ DECLARED", VIOLET), "ru": ("◇ ЗАЯВЛЕНО", VIOLET)}
+
+GROUPS = {
+    "en": {
+        "title": "Treatment and control groups as planned",
+        "desc": ("Redrawn from the earlier diagram charts/mermaid/root_1.png. Four treatment groups, CH17, CH19, CH21 and CH17+CH19, and one "
+                 "control group, each stated as 5-10 samples, flow into measurements and then results."),
+        "sub": "Earlier diagram, redrawn; group sizes are as that diagram states",
+        "tag": "DESIGN · REDRAWN",
+        "t_panel": "TREATMENT GROUPS", "c_panel": "CONTROL GROUP",
+        "groups": [("CH17", TEAL), ("CH19", VIOLET), ("CH21", AMBER), ("CH17+CH19", BLUE)], "control": "Control",
+        "n": "5-10 samples", "meas": "Measurements", "res": "Results",
+        "foot": "Declared in the earlier README diagram; the sample counts are not checked against the data here.",
+    },
+    "ru": {
+        "title": "Группы воздействия и контроль по плану",
+        "desc": ("Перерисовано с прежней схемы charts/mermaid/root_1.png. Четыре группы воздействия, CH17, CH19, CH21 и CH17+CH19, и одна "
+                 "контрольная группа, в каждой заявлено 5-10 образцов, ведут к измерениям и затем к результатам."),
+        "sub": "Прежняя схема, перерисована; размеры групп как на ней",
+        "tag": "ДИЗАЙН · ПЕРЕРИСОВАНО",
+        "t_panel": "ГРУППЫ ВОЗДЕЙСТВИЯ", "c_panel": "КОНТРОЛЬНАЯ ГРУППА",
+        "groups": [("CH17", TEAL), ("CH19", VIOLET), ("CH21", AMBER), ("CH17+CH19", BLUE)], "control": "Контроль",
+        "n": "5-10 образцов", "meas": "Измерения", "res": "Результаты",
+        "foot": "Заявлено на схеме прежнего README; число образцов здесь не сверено с данными.",
+    },
+}
+
+
+def groups(lang):
+    c = GROUPS[lang]; st = DECL[lang]
+    W, H = 1200, 540
+    cv = Canvas(W, H, c["title"], c["desc"], c["title"], c["sub"], c["tag"])
+    pw = 4 * 200 + 3 * 14 + 32
+    cv.panel(24, 96, pw, 124, c["t_panel"], LINE)
+    for i, (t, col) in enumerate(c["groups"]):
+        cv.box(24 + 16 + i * 214, 132, 200, t, [c["n"]], stroke=col, h=76, center=True)
+    cx = 24 + pw + 20
+    cv.panel(cx, 96, W - 24 - cx, 124, c["c_panel"], LINE)
+    cv.box(cx + 16, 132, W - 24 - cx - 32, c["control"], [c["n"]], stroke=MUTED, h=76, center=True)
+    mw = 320; mx = (W - mw) / 2
+    cv.box(mx, 300, mw, c["meas"], [], stroke=TEAL, h=60, center=True)
+    cv.arrow([(24 + pw / 2, 223), (24 + pw / 2, 262), (mx + 60, 262), (mx + 60, 297)], TEAL, animate=False)
+    cv.arrow([((cx + W - 24) / 2, 223), ((cx + W - 24) / 2, 262), (mx + mw - 60, 262), (mx + mw - 60, 297)], TEAL, animate=False)
+    cv.box(mx, 400, mw, c["res"], [], stroke=GREEN, h=60, center=True)
+    cv.arrow([(W / 2, 363), (W / 2, 397)], TEAL, animate=False)
+    foot(cv, [c["foot"]], H - 14)
+    return "\n".join(cv.o + ["</svg>\n"])
+
+
+PIPE = {
+    "en": {
+        "title": "Planned analysis stack",
+        "desc": ("Redrawn from the earlier diagram charts/mermaid/root_2.png. A phone camera image is restored with Cellpose3, then an image-type "
+                 "decision splits it. Microscopy goes to YeastSAM cell segmentation and morphometry (size, budding index). A macro Petri dish goes "
+                 "to OpenCV turbidity and colony measurement, then CIELAB to OD600 and HSV viability. Both branches feed AMiGA growth curves, then "
+                 "LME and ANOVA statistics, then results."),
+        "sub": "Earlier diagram, redrawn; this is the plan, not the analysed batch",
+        "tag": "PLANNED STACK · REDRAWN",
+        "phone": ("Phone camera", []), "cp": ("Cellpose3", ["Restore / denoise"]), "dec": ["Image type"],
+        "b1": "Microscopy", "b2": "Macro Petri",
+        "ys": ("YeastSAM", ["Cell segmentation"]), "mo": ("Morphometry", ["size, budding index"]),
+        "cv": ("OpenCV", ["Turbidity + colony"]), "ci": ("CIELAB -> OD600", ["Viability / HSV"]),
+        "am": ("AMiGA", ["Growth curves"]), "lme": ("LME + ANOVA", ["Statistics"]), "res": ("Results", []),
+        "foot": ["Planned tools as drawn earlier. The analysed batch used cyto2 cell count, texture occupancy and blind LLM scoring (see Analysis flow)."],
+    },
+    "ru": {
+        "title": "Планируемый стек анализа",
+        "desc": ("Перерисовано с прежней схемы charts/mermaid/root_2.png. Снимок с камеры телефона восстанавливается Cellpose3, затем выбор типа "
+                 "изображения разводит потоки. Микроскопия идёт в сегментацию клеток YeastSAM и морфометрию (размер, индекс почкования). Макро "
+                 "чашки Петри идёт в мутность и колонии OpenCV, затем CIELAB в OD600 и жизнеспособность HSV. Обе ветви ведут к кривым роста "
+                 "AMiGA, затем к статистике LME и ANOVA и к результатам."),
+        "sub": "Прежняя схема, перерисована; это план, а не проанализированная серия",
+        "tag": "ПЛАН СТЕКА · ПЕРЕРИСОВАНО",
+        "phone": ("Камера телефона", []), "cp": ("Cellpose3", ["Шумоподавление"]), "dec": ["Тип", "изображения"],
+        "b1": "Микроскопия", "b2": "Макро чашка",
+        "ys": ("YeastSAM", ["Сегментация клеток"]), "mo": ("Морфометрия", ["размер, индекс почкования"]),
+        "cv": ("OpenCV", ["Мутность + колонии"]), "ci": ("CIELAB -> OD600", ["Жизнеспособность HSV"]),
+        "am": ("AMiGA", ["Кривые роста"]), "lme": ("LME + ANOVA", ["Статистика"]), "res": ("Результаты", []),
+        "foot": ["Планируемые инструменты как на схеме. Проанализированная серия использовала счёт клеток cyto2, занятость текстуры и слепую оценку LLM (см. Поток анализа)."],
+    },
+}
+
+
+def pipeline(lang):
+    c = PIPE[lang]; st = DECL[lang]
+    W, H = 1200, 690
+    cv = Canvas(W, H, c["title"], c["desc"], c["title"], c["sub"], c["tag"])
+    ym = 270
+
+    def b(x, cy, w, key, stroke=TEAL, planned=True):
+        t, body = c[key]
+        cv.box(x, cy - 58, w, t, body, status=[st] if planned else [], stroke=stroke, h=116, center=True)
+    b(24, ym, 130, "phone", MUTED, False)
+    b(172, ym, 160, "cp")
+    # decision diamond
+    dx, dh, dw = 420, 62, 76
+    cv.add("<polygon points='%d,%d %d,%d %d,%d %d,%d' fill='%s' stroke='%s' stroke-width='1.6'/>"
+           % (dx, ym - dh, dx + dw, ym, dx, ym + dh, dx - dw, ym, PANEL, GOLD))
+    for i, ln in enumerate(c["dec"]):
+        cv.label(dx, ym + 5 + (i - (len(c["dec"]) - 1) / 2) * 18, ln, 14, INK, "middle", 700, box=2 * dw - 30)
+    cv.arrow([(156, ym), (169, ym)], TEAL, animate=False)
+    cv.arrow([(334, ym), (dx - dw - 3, ym)], TEAL, animate=False)
+    y1, y2 = 170, 370
+    cv.label(520, y1 - 66, c["b1"].upper(), 13, GOLD, weight=800, box=170)
+    cv.label(520, y2 - 66, c["b2"].upper(), 13, GOLD, weight=800, box=170)
+    b(520, y1, 200, "ys"); b(740, y1, 200, "mo")
+    b(520, y2, 200, "cv"); b(740, y2, 200, "ci")
+    cv.arrow([(dx + dw + 3, ym), (508, ym), (508, y1), (517, y1)], GOLD, animate=False)
+    cv.arrow([(508, ym), (508, y2), (517, y2)], GOLD, animate=False)
+    cv.arrow([(722, y1), (737, y1)], TEAL, animate=False)
+    cv.arrow([(722, y2), (737, y2)], TEAL, animate=False)
+    ax, aw = 970, 206
+    b(ax, ym, aw, "am")
+    cv.arrow([(942, y1), (956, y1), (956, ym - 20), (967, ym - 20)], TEAL, animate=False)
+    cv.arrow([(942, y2), (956, y2), (956, ym + 20), (967, ym + 20)], TEAL, animate=False)
+    b(ax, 430, aw, "lme")
+    cv.arrow([(ax + aw / 2, ym + 61), (ax + aw / 2, 369)], TEAL, animate=False)
+    b(ax, 570, aw, "res", GREEN, False)
+    cv.arrow([(ax + aw / 2, 491), (ax + aw / 2, 509)], TEAL, animate=False)
+    foot(cv, c["foot"], H - 14)
+    return "\n".join(cv.o + ["</svg>\n"])
+
+
+PLAN = {
+    "en": {
+        "title": "Milestone plan as the earlier README drew it",
+        "desc": ("Redrawn from the earlier diagram charts/mermaid/root_3.png. Eight steps in order: Mar 28 team assembled and protocol defined; "
+                 "Mar 29 emitter upgrade 0.7 W to 60 W / 144 W; Mar 31 microscopy and staining validated; Apr 4 OSF preregistration submitted; "
+                 "Apr 7 OSF registration accepted; Q2 2026 irradiation experiments begin; Q3-Q4 2026 data collection and CV analysis; "
+                 "Q3-Q4 2026 publication preparation."),
+        "sub": "Earlier diagram, redrawn; dates are as that diagram states them",
+        "tag": "PLAN · REDRAWN",
+        "steps": [("Mar 28", "Team assembled, protocol defined"), ("Mar 29", "Emitter upgrade 0.7W→60W/144W"),
+                  ("Mar 31", "Microscopy & staining validated"), ("Apr 4", "OSF preregistration submitted"),
+                  ("Apr 7", "OSF registration accepted"), ("Q2 2026", "Irradiation experiments begin"),
+                  ("Q3–Q4 2026", "Data collection & CV analysis"), ("Q3–Q4 2026", "Publication preparation")],
+        "foot": "Dated record against this plan: the Timeline picture. The first five dates are the earlier README's statements; the last three are plans.",
+    },
+    "ru": {
+        "title": "План вех, как его рисовал прежний README",
+        "desc": ("Перерисовано с прежней схемы charts/mermaid/root_3.png. Восемь шагов по порядку: 28 марта команда и протокол; 29 марта "
+                 "модернизация излучателя 0,7 Вт до 60 Вт / 144 Вт; 31 марта валидация микроскопии и окрашивания; 4 апреля подана предрегистрация "
+                 "OSF; 7 апреля регистрация OSF принята; 2 кв. 2026 начало экспериментов по облучению; 3-4 кв. 2026 сбор данных и CV-анализ; "
+                 "3-4 кв. 2026 подготовка публикации."),
+        "sub": "Прежняя схема, перерисована; даты как на ней",
+        "tag": "ПЛАН · ПЕРЕРИСОВАНО",
+        "steps": [("28 марта", "Команда собрана, протокол определён"), ("29 марта", "Модернизация излучателя 0,7 Вт→60 Вт/144 Вт"),
+                  ("31 марта", "Микроскопия и окрашивание валидированы"), ("4 апреля", "Предрегистрация OSF подана"),
+                  ("7 апреля", "Регистрация OSF принята"), ("2 кв. 2026", "Начало экспериментов по облучению"),
+                  ("3–4 кв. 2026", "Сбор данных и CV-анализ"), ("3–4 кв. 2026", "Подготовка публикации")],
+        "foot": "Датированная запись против этого плана: картина «Хронология». Первые пять дат — утверждения прежнего README; последние три — планы.",
+    },
+}
+
+
+def plan(lang):
+    c = PLAN[lang]
+    st_d = DECL[lang]; st_p = STATE[lang]["planned"]
+    W, H = 1200, 500
+    cv = Canvas(W, H, c["title"], c["desc"], c["title"], c["sub"], c["tag"])
+    bw, gap, h = 264, 32, 128
+    pos = []
+    for i, (d, t) in enumerate(c["steps"]):
+        x = 24 + (i % 4) * (bw + gap); y = 100 if i < 4 else 290
+        cv.box(x, y, bw, d, [t], status=[st_d if i < 5 else st_p], stroke=VIOLET if i < 5 else AMBER, h=h, valign="top")
+        pos.append((x, y))
+    for i in range(7):
+        if i == 3:
+            x4 = pos[3][0] + bw / 2; x5 = pos[4][0] + bw / 2
+            cv.arrow([(x4, 100 + h + 3), (x4, 259), (x5, 259), (x5, 287)], TEAL, animate=False)
+        else:
+            (x, y), (x2, _) = pos[i], pos[i + 1]
+            cv.arrow([(x + bw + 2, y + h / 2), (x2 - 3, y + h / 2)], TEAL, animate=False)
+    foot(cv, [c["foot"]], H - 14)
+    return "\n".join(cv.o + ["</svg>\n"])
+
+
+PAT = {
+    "en": {
+        "title": "Patent connection as the earlier README drew it",
+        "desc": ("Redrawn from the earlier diagram charts/mermaid/retry_1.png. The application KZ 2025/1095.1, Fractal Biomedical Hyperbolic Field "
+                 "System, status Substantive Exam, leads to the Hyperbolic Field emitter technology, which leads to four studies: this study "
+                 "(Saccharomyces cerevisiae), the blood plasma study, the agricultural study and the DAAT crystal study."),
+        "sub": "Earlier diagram, redrawn; an application is not a granted patent",
+        "tag": "IP · REDRAWN",
+        "app": ("KZ 2025/1095.1", ["Fractal Biomedical Hyperbolic Field System", "Substantive Exam"]),
+        "tech": ("Hyperbolic Field emitter technology", []),
+        "kids": [("This study", ["Saccharomyces cerevisiae"], TEAL), ("Blood plasma study", [], MUTED),
+                 ("Agricultural study", [], MUTED), ("DAAT crystal study", [], MUTED)],
+        "foot": "As the earlier README states it; the repository holds no filing text and does not name the applicants.",
+    },
+    "ru": {
+        "title": "Связь с патентом, как её рисовал прежний README",
+        "desc": ("Перерисовано с прежней схемы charts/mermaid/retry_1.png. Заявка KZ 2025/1095.1, Fractal Biomedical Hyperbolic Field System, "
+                 "статус Substantive Exam, ведёт к технологии излучателей гиперболического поля, а она к четырём исследованиям: это исследование "
+                 "(Saccharomyces cerevisiae), исследование плазмы, сельскохозяйственное и исследование кристаллов DAAT."),
+        "sub": "Прежняя схема, перерисована; заявка — не выданный патент",
+        "tag": "ИС · ПЕРЕРИСОВАНО",
+        "app": ("KZ 2025/1095.1", ["Fractal Biomedical Hyperbolic Field System", "Substantive Exam"]),
+        "tech": ("Технология излучателей гиперболического поля", []),
+        "kids": [("Это исследование", ["Saccharomyces cerevisiae"], TEAL), ("Исследование плазмы", [], MUTED),
+                 ("Исследование растений", [], MUTED), ("Исследование кристаллов DAAT", [], MUTED)],
+        "foot": "Как утверждает прежний README; текста подачи в репозитории нет, заявители не названы.",
+    },
+}
+
+
+def patent(lang):
+    c = PAT[lang]; st = STATE[lang]["app"]
+    W, H = 1200, 510
+    cv = Canvas(W, H, c["title"], c["desc"], c["title"], c["sub"], c["tag"])
+    aw = 480; ax = (W - aw) / 2
+    t, body = c["app"]
+    cv.box(ax, 96, aw, t, body, status=[st], stroke=GOLD, h=118, center=True)
+    t, body = c["tech"]
+    cv.box(ax, 244, aw, t, body, stroke=BLUE, h=56, center=True)
+    cv.arrow([(W / 2, 217), (W / 2, 241)], GOLD, animate=False)
+    bw, gap = 276, 16
+    for i, (t, body, col) in enumerate(c["kids"]):
+        x = 24 + i * (bw + gap)
+        cv.box(x, 350, bw, t, body, stroke=col, h=70, center=True)
+        cv.arrow([(W / 2, 303), (W / 2, 326), (x + bw / 2, 326), (x + bw / 2, 347)], BLUE, animate=False)
+    foot(cv, [c["foot"]], H - 14)
+    return "\n".join(cv.o + ["</svg>\n"])
+
+
 # --- icons -----------------------------------------------------------------------------------
 def icon(col, body, title):
     return ("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" role=\"img\">\n"
@@ -567,6 +794,7 @@ ICONS = {
     "open": (GOLD, "<circle cx='32' cy='32' r='18'/><path d='M26 27a6 6 0 1 1 9 5c-2 1-3 2-3 4M32 43v2'/>", "open questions"),
     "ethics": (AMBER, "<rect x='17' y='29' width='30' height='21' rx='4'/><path d='M23 29v-6a9 9 0 0 1 18 0v6M32 38v6'/>", "ethics and security"),
     "glossary": (VIOLET, "<rect x='16' y='12' width='32' height='40' rx='4'/><path d='M23 22h18M23 30h18M23 38h10'/>", "glossary"),
+    "figures": (TEAL, "<rect x='12' y='14' width='40' height='36' rx='4'/><circle cx='24' cy='26' r='4'/><path d='M12 44l12-10 9 7 8-9 11 10'/>", "figures"),
     "archive": (MUTED, "<rect x='12' y='14' width='40' height='11' rx='3'/><path d='M16 25v25h32V25M26 34h12'/>", "archive"),
 }
 
@@ -580,6 +808,10 @@ def main():
         write("guide/assets/diagrams/analysis-flow.%s.svg" % lang, flow(lang))
         write("guide/assets/diagrams/timeline.%s.svg" % lang, timeline(lang))
         write("guide/assets/diagrams/ecosystem-flow.%s.svg" % lang, ecosystem(lang))
+        write("guide/assets/diagrams/design-groups.%s.svg" % lang, groups(lang))
+        write("guide/assets/diagrams/planned-pipeline.%s.svg" % lang, pipeline(lang))
+        write("guide/assets/diagrams/plan-milestones.%s.svg" % lang, plan(lang))
+        write("guide/assets/diagrams/patent-connection.%s.svg" % lang, patent(lang))
     for name, (col, body, title) in ICONS.items():
         write("guide/assets/icons/%s.svg" % name, icon(col, body, title))
 

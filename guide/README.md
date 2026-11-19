@@ -26,4 +26,5 @@ Detail pages behind the [front-page README](../README.md). Numbers on these page
 | <img src="assets/icons/open.svg" width="30" alt="open icon"> | [Open questions](OPEN.md) | inconsistencies, what needs outside access, open scientific steps |
 | <img src="assets/icons/ethics.svg" width="30" alt="ethics icon"> | [Ethics, IP and security](ETHICS.md) | classification, IP status, support, contact, licence, disclaimer |
 | <img src="assets/icons/glossary.svg" width="30" alt="glossary icon"> | [Glossary](GLOSSARY.md) | statistics, imaging, AI method, biology and design terms |
+| <img src="assets/icons/figures.svg" width="30" alt="figures icon"> | [Figures](FIGURES.md) | every diagram, chart and photograph in the repository |
 | <img src="assets/icons/archive.svg" width="30" alt="archive icon"> | [Archived README](../archive/README_2026-11-19_pre-showcase.md) | the previous front page, unchanged |

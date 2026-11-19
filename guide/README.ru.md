@@ -26,4 +26,5 @@
 | <img src="assets/icons/open.svg" width="30" alt="иконка: вопросы"> | [Открытые вопросы](OPEN.ru.md) | несоответствия, что требует доступа извне, открытые научные шаги |
 | <img src="assets/icons/ethics.svg" width="30" alt="иконка: этика"> | [Этика, ИС и безопасность](ETHICS.ru.md) | классификация, статус ИС, поддержка, контакты, лицензия, отказ от ответственности |
 | <img src="assets/icons/glossary.svg" width="30" alt="иконка: глоссарий"> | [Глоссарий](GLOSSARY.ru.md) | термины статистики, анализа изображений, AI-метода, биологии и дизайна |
+| <img src="assets/icons/figures.svg" width="30" alt="иконка: рисунки"> | [Рисунки](FIGURES.ru.md) | все схемы, графики и фотографии репозитория |
 | <img src="assets/icons/archive.svg" width="30" alt="иконка: архив"> | [Архивный README](../archive/README_2026-11-19_pre-showcase.md) | прежняя главная страница без изменений |

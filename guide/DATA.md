@@ -52,7 +52,8 @@ The earlier README describes this stack as the analysis pipeline. What the repos
 ### Pipeline architecture
 
 <div align="center">
-<a href="../charts/mermaid/root_2.png"><img src="../charts/mermaid/root_2.png" width="100%" alt="Earlier pipeline diagram of the planned analysis stack"></a>
+<a href="assets/diagrams/planned-pipeline.en.svg"><img src="assets/diagrams/planned-pipeline.en.svg" width="100%" alt="Earlier pipeline diagram of the planned analysis stack"></a><br>
+<sub>Original figure: <a href="../charts/mermaid/root_2.png"><code>charts/mermaid/root_2.png</code></a></sub>
 </div>
 
 ### Dependencies

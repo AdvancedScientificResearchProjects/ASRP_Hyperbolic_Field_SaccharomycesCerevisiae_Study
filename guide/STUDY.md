@@ -39,7 +39,8 @@ The registered programme is fermentation kinetics: gas production, turbidity and
 The upper lane is the plan as the earlier README drew it (`charts/mermaid/root_3.png`, still in the repository). The lower lane is what git history and the files record; each date was checked against its source when the picture was built. The plan places irradiation experiments in the second quarter of 2026 and data collection in the second half; the repository holds photographs dated <!--n:date_first-->2026-04-19<!--/n--> to <!--n:date_last-->2026-04-22<!--/n--> (<!--n:images_dated-->198<!--/n--> of <!--n:images_total-->990<!--/n--> carry a date) and no later experimental record.
 
 <div align="center">
-<a href="../charts/mermaid/root_3.png"><img src="../charts/mermaid/root_3.png" width="100%" alt="Earlier plan diagram: team assembled and protocol defined, emitter upgrade, microscopy and staining validated, OSF submission and acceptance, irradiation experiments, data collection, publication preparation"></a>
+<a href="assets/diagrams/plan-milestones.en.svg"><img src="assets/diagrams/plan-milestones.en.svg" width="100%" alt="Earlier plan diagram: team assembled and protocol defined, emitter upgrade, microscopy and staining validated, OSF submission and acceptance, irradiation experiments, data collection, publication preparation"></a><br>
+<sub>Original figure: <a href="../charts/mermaid/root_3.png"><code>charts/mermaid/root_3.png</code></a></sub>
 </div>
 
 ## Research team
@@ -54,7 +55,7 @@ The upper lane is the plan as the earlier README drew it (`charts/mermaid/root_3
 | **Ivan Savelyev** | Science Director & Editor-in-Chief ASRP.science | Data logging protocols, methodology review |
 | Two laboratory assistants (senior and junior) | Laboratory staff | Sample preparation, probe separation, laboratory support |
 
-The earlier README lists eight researchers; the two laboratory assistants are not named here (private persons, memory policy). No participant data exists in this study: the subject is yeast.
+The earlier README lists eight researchers; the two laboratory assistants are not named here (private persons). No participant data exists in this study: the subject is yeast.
 
 ## Keywords
 

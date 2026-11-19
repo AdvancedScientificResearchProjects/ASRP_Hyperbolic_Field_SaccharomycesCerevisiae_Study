@@ -53,10 +53,11 @@ This study is grounded in the Fractal Biomedical Hyperbolic Field System patent 
 |---|---|---|---|
 | **Fractal Biomedical Hyperbolic Field System** | KZ 2025/1095.1 | Substantive Exam (as written in the earlier README; an application, not a granted patent) | [View](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) |
 
-**Who holds it.** By the owner's ruling the applicants of the Kazakhstan filings are individuals (this repository states no applicant). The company (the TOO / LLP) appears only as a correspondence address or fee payer, so it is not the applicant or holder of an application. The earlier README does not name the applicant; this repository holds no filing text.
+**Who holds it.** This repository does not name the applicants of the Kazakhstan filings. The company (the TOO / LLP) appears only as a correspondence address or fee payer; an application is not a granted patent. The earlier README does not name the applicant; this repository holds no filing text.
 
 <div align="center">
-<a href="../charts/mermaid/retry_1.png"><img src="../charts/mermaid/retry_1.png" width="70%" alt="Earlier diagram of the patent connection"></a>
+<a href="assets/diagrams/patent-connection.en.svg"><img src="assets/diagrams/patent-connection.en.svg" width="100%" alt="Earlier diagram of the patent connection"></a><br>
+<sub>Original figure: <a href="../charts/mermaid/retry_1.png"><code>charts/mermaid/retry_1.png</code></a></sub>
 </div>
 
 ## Patent portfolio

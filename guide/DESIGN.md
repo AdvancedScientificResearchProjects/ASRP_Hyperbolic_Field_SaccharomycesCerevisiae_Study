@@ -94,7 +94,8 @@ If CH19 is associated with increased activity and CH17 exhibits a similar or int
 ### Sample groups
 
 <div align="center">
-<a href="../charts/mermaid/root_1.png"><img src="../charts/mermaid/root_1.png" width="50%" alt="Earlier diagram: four treatment groups CH17, CH19, CH21 and CH17+CH19 and one control group, 5-10 samples each, flowing to measurements and results"></a>
+<a href="assets/diagrams/design-groups.en.svg"><img src="assets/diagrams/design-groups.en.svg" width="100%" alt="Earlier diagram: four treatment groups CH17, CH19, CH21 and CH17+CH19 and one control group, 5-10 samples each, flowing to measurements and results"></a><br>
+<sub>Original figure: <a href="../charts/mermaid/root_1.png"><code>charts/mermaid/root_1.png</code></a></sub>
 </div>
 
 The data holds four of these five groups: the combined group CH17+CH19 is not in the journal mapping or in the photographs ([Evidence](EVIDENCE.md)).

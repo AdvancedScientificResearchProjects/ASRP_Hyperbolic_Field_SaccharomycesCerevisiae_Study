@@ -52,7 +52,8 @@
 ### Архитектура пайплайна
 
 <div align="center">
-<a href="../charts/mermaid/root_2.png"><img src="../charts/mermaid/root_2.png" width="100%" alt="Прежняя схема планируемого аналитического стека"></a>
+<a href="assets/diagrams/planned-pipeline.ru.svg"><img src="assets/diagrams/planned-pipeline.ru.svg" width="100%" alt="Прежняя схема планируемого аналитического стека"></a><br>
+<sub>Исходная схема: <a href="../charts/mermaid/root_2.png"><code>charts/mermaid/root_2.png</code></a></sub>
 </div>
 
 ### Зависимости

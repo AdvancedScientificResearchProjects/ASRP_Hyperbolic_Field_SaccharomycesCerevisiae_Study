@@ -43,6 +43,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from inventory import inventory, github_slug, MDLINK_RE  # noqa: E402
 
+REDRAWN_AS = {"root_1": "design-groups", "root_2": "planned-pipeline", "root_3": "plan-milestones", "retry_1": "patent-connection"}
 ARCHIVE = "archive/README_2026-11-19_pre-showcase.md"
 TAG = "pre-showcase-2026-11"
 THRESHOLD = 0.8
@@ -187,7 +188,12 @@ def main():
         # A legacy PNG counts as kept when the pages show it, or when they show its redrawn pair:
         # STEM.en.svg on the English pages and STEM.ru.svg on the Russian pages.
         redrawn = (stem + ".en.svg") in en and (stem + ".ru.svg") in ru
-        if base not in allt and not redrawn:
+        new = REDRAWN_AS.get(stem)  # schema PNGs of charts/mermaid/ must be SHOWN as their redrawn pair, a link is not enough
+        if new:
+            redrawn = ("assets/diagrams/%s.en.svg" % new) in en and ("assets/diagrams/%s.ru.svg" % new) in ru
+            if not redrawn:
+                img_miss.append(im["target"] + " (redrawn pair %s not shown)" % new)
+        elif base not in allt and not redrawn:
             img_miss.append(im["target"] + " (not referenced)")
         local = re.sub(r"^https://raw\.githubusercontent\.com/[^/]+/[^/]+/main/", "", im["target"])  # absolute raw URL -> repo file
         if not os.path.exists(local):

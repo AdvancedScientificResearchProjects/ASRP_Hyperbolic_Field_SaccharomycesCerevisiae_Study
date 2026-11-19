@@ -22,6 +22,7 @@ The repository is a study repository, not a code project: most of its volume is 
 | the analysis code | [`scripts/cv_analysis/`](../scripts/cv_analysis/occupancy.py), [`scripts/llm_analysis/`](../scripts/llm_analysis/run_single.py) |
 | the registration and the patent application | [Ecosystem, registration and patent](ECOSYSTEM.md); [`OSF_PREREGISTRATION.md`](../OSF_PREREGISTRATION.md) |
 | terms such as pseudoreplication, occupancy, endpoint | [Glossary](GLOSSARY.md) |
+| every diagram, chart and photograph | [Figures](FIGURES.md) |
 | what does not add up yet | [Open questions](OPEN.md) |
 | the data hub of the earlier README | [`data/README.md`](../data/README.md) (partly stale) |
 | the earlier English-only and Russian-only READMEs | [`en/README.md`](../en/README.md), [`ru/README.md`](../ru/README.md) |

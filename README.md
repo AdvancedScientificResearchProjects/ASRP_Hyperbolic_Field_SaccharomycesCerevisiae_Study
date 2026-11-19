@@ -34,7 +34,7 @@
 
 </div>
 
-> This is a private research repository. All findings are preliminary and subject to validation. A patent application is an IP claim, not validation of the field effect.
+> This is a public research repository. All findings are preliminary and subject to validation. A patent application is an IP claim, not validation of the field effect.
 
 <!-- legacy-anchors --><a name="hyperbolic-field-saccharomyces-cerevisiae-study--исследование-влияния-гиперболических-полей-на-saccharomyces-cerevisiae"></a><a name="chrono-regulatory-effects-of-hyperbolic-field-modulation-on-saccharomyces-cerevisiae-fermentation-dynamics"></a>
 ## At a glance
@@ -67,6 +67,7 @@
 | <img src="guide/assets/icons/open.svg" width="44" alt="open icon"> | **[Open questions](guide/OPEN.md)** | inconsistencies and what needs outside access |
 | <img src="guide/assets/icons/ethics.svg" width="44" alt="ethics icon"> | **[Ethics, IP and security](guide/ETHICS.md)** | classification, IP status, contact, licence |
 | <img src="guide/assets/icons/glossary.svg" width="44" alt="glossary icon"> | **[Glossary](guide/GLOSSARY.md)** | statistics, imaging, AI and biology terms |
+| <img src="guide/assets/icons/figures.svg" width="44" alt="figures icon"> | **[Figures](guide/FIGURES.md)** | every diagram, chart and photograph in the repository |
 
 Full list: [guide index](guide/README.md).
 
@@ -110,7 +111,8 @@ Full page: [The study](guide/STUDY.md)
 The upper lane is the plan as the earlier README drew it (`charts/mermaid/root_3.png`, still in the repository). The lower lane is what git history and the files record; each date was checked against its source when the picture was built. The plan places irradiation experiments in the second quarter of 2026 and data collection in the second half; the repository holds photographs dated <!--n:date_first-->2026-04-19<!--/n--> to <!--n:date_last-->2026-04-22<!--/n--> (<!--n:images_dated-->198<!--/n--> of <!--n:images_total-->990<!--/n--> carry a date) and no later experimental record.
 
 <div align="center">
-<a href="charts/mermaid/root_3.png"><img src="charts/mermaid/root_3.png" width="100%" alt="Earlier plan diagram: team assembled and protocol defined, emitter upgrade, microscopy and staining validated, OSF submission and acceptance, irradiation experiments, data collection, publication preparation"></a>
+<a href="guide/assets/diagrams/plan-milestones.en.svg"><img src="guide/assets/diagrams/plan-milestones.en.svg" width="100%" alt="Earlier plan diagram: team assembled and protocol defined, emitter upgrade, microscopy and staining validated, OSF submission and acceptance, irradiation experiments, data collection, publication preparation"></a><br>
+<sub>Original figure: <a href="charts/mermaid/root_3.png"><code>charts/mermaid/root_3.png</code></a></sub>
 </div>
 <!-- /excerpt -->
 
@@ -287,10 +289,11 @@ This study is grounded in the Fractal Biomedical Hyperbolic Field System patent 
 |---|---|---|---|
 | **Fractal Biomedical Hyperbolic Field System** | KZ 2025/1095.1 | Substantive Exam (as written in the earlier README; an application, not a granted patent) | [View](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) |
 
-**Who holds it.** By the owner's ruling the applicants of the Kazakhstan filings are individuals (this repository states no applicant). The company (the TOO / LLP) appears only as a correspondence address or fee payer, so it is not the applicant or holder of an application. The earlier README does not name the applicant; this repository holds no filing text.
+**Who holds it.** This repository does not name the applicants of the Kazakhstan filings. The company (the TOO / LLP) appears only as a correspondence address or fee payer; an application is not a granted patent. The earlier README does not name the applicant; this repository holds no filing text.
 
 <div align="center">
-<a href="charts/mermaid/retry_1.png"><img src="charts/mermaid/retry_1.png" width="70%" alt="Earlier diagram of the patent connection"></a>
+<a href="guide/assets/diagrams/patent-connection.en.svg"><img src="guide/assets/diagrams/patent-connection.en.svg" width="100%" alt="Earlier diagram of the patent connection"></a><br>
+<sub>Original figure: <a href="charts/mermaid/retry_1.png"><code>charts/mermaid/retry_1.png</code></a></sub>
 </div>
 <!-- /excerpt -->
 
@@ -312,7 +315,7 @@ Full page: [ASRP ecosystem, registration and patent](guide/ECOSYSTEM.md#patent-c
 | **Ivan Savelyev** | Science Director & Editor-in-Chief ASRP.science | Data logging protocols, methodology review |
 | Two laboratory assistants (senior and junior) | Laboratory staff | Sample preparation, probe separation, laboratory support |
 
-The earlier README lists eight researchers; the two laboratory assistants are not named here (private persons, memory policy). No participant data exists in this study: the subject is yeast.
+The earlier README lists eight researchers; the two laboratory assistants are not named here (private persons). No participant data exists in this study: the subject is yeast.
 <!-- /excerpt -->
 
 ### Keywords
@@ -343,6 +346,7 @@ The repository is a study repository, not a code project: most of its volume is 
 | the analysis code | [`scripts/cv_analysis/`](scripts/cv_analysis/occupancy.py), [`scripts/llm_analysis/`](scripts/llm_analysis/run_single.py) |
 | the registration and the patent application | [Ecosystem, registration and patent](guide/ECOSYSTEM.md); [`OSF_PREREGISTRATION.md`](OSF_PREREGISTRATION.md) |
 | terms such as pseudoreplication, occupancy, endpoint | [Glossary](guide/GLOSSARY.md) |
+| every diagram, chart and photograph | [Figures](guide/FIGURES.md) |
 | what does not add up yet | [Open questions](guide/OPEN.md) |
 | the data hub of the earlier README | [`data/README.md`](data/README.md) (partly stale) |
 | the earlier English-only and Russian-only READMEs | [`en/README.md`](en/README.md), [`ru/README.md`](ru/README.md) |
@@ -359,7 +363,7 @@ Full page: [Navigation and structure](guide/NAVIGATION.md)
 | # | What does not agree | Where | What would settle it |
 |---|---|---|---|
 | 1 | The preregistration file contains an already-obtained result ("found: raises cell count ×1.6–1.8") and was first committed on 2026-06-10, after the data (2026-04-19 to 2026-04-22) and the density report; the earlier README of 2026-04-09 listed fermentation outcomes as primary, the file lists cell count, occupancy and LLM scoring | `OSF_PREREGISTRATION.md:33` | the frozen April text of the OSF page |
-| 2 | The README says the effect is "reproducible"; the report says "not yet a reproducible effect" | earlier README `README.md:402` against `reports/2026-06-09_density-analysis/report_en.md` (Conclusion) | owner decision on the wording; the report is the stricter source |
+| 2 | The README says the effect is "reproducible"; the report says "not yet a reproducible effect" | earlier README `README.md:402` against `reports/2026-06-09_density-analysis/report_en.md` (Conclusion) | the wording needs a decision; the report is the stricter source |
 | 3 | Stain strength is written as "0.1% MB + 0.01% sodium citrate" in the metrics table and as "0.1 mg/mL in 2% sodium citrate dihydrate" in the protocol | `README.md:100` against `README.md:231` and `reports/experiment_protocol_en.md` | the lab's actual recipe |
 | 4 | The journal note speaks of "acceleration of the 19th frequency" (in Russian) while the README states the channel numbers are control-software identifiers, not physical frequencies | `data/photos/journal-note.txt:5` against `README.md:681` | a statement from the hardware lead |
 | 5 | The combined group CH17+CH19 is in the README (H9 to H11, the design table) but not in the OSF file conditions, the journal mapping or the data; N = 25–50 matches five groups, the data has four | `README.md:187` | whether that arm was run |
@@ -394,12 +398,12 @@ The subject of the study is yeast, so there is no participant data. The photogra
 ### IP status
 
 - The linked filing KZ 2025/1095.1 is a patent **application** (stated status: substantive examination). It is not a granted patent and it does not validate the field effect.
-- By the owner's ruling the applicants of the Kazakhstan filings are individuals (this repository states no applicant); the company is a correspondence address or fee payer only ([Ecosystem](guide/ECOSYSTEM.md#patent-connection)).
+- This repository does not name the applicants of the Kazakhstan filings; the company is a correspondence address or fee payer only; an application is not a granted patent ([Ecosystem](guide/ECOSYSTEM.md#patent-connection)).
 - The study text is licensed CC-BY-NC-ND 4.0 (below).
 
 ### Before this repository is made public
 
-The repository is private. Points a reviewer should settle first, taken from [Open questions](guide/OPEN.md): whether the preregistration file may be described as a registration, the wording of the README's results claims against the report, and the residential-style address and personal details of the earlier README (kept only in the archived copy).
+The repository is public. Points a reviewer should settle first, taken from [Open questions](guide/OPEN.md): whether the preregistration file may be described as a registration, the wording of the README's results claims against the report, and the residential-style address and personal details of the earlier README (kept only in the archived copy).
 <!-- /excerpt -->
 
 Full page: [Ethics, IP and security](guide/ETHICS.md)

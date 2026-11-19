@@ -94,7 +94,8 @@
 ### Группы образцов
 
 <div align="center">
-<a href="../charts/mermaid/root_1.png"><img src="../charts/mermaid/root_1.png" width="50%" alt="Прежняя схема: четыре группы воздействия CH17, CH19, CH21 и CH17+CH19 и одна контрольная, по 5-10 образцов, ведут к измерениям и результатам"></a>
+<a href="assets/diagrams/design-groups.ru.svg"><img src="assets/diagrams/design-groups.ru.svg" width="100%" alt="Прежняя схема: четыре группы воздействия CH17, CH19, CH21 и CH17+CH19 и одна контрольная, по 5-10 образцов, ведут к измерениям и результатам"></a><br>
+<sub>Исходная схема: <a href="../charts/mermaid/root_1.png"><code>charts/mermaid/root_1.png</code></a></sub>
 </div>
 
 В данных четыре из этих пяти групп: комбинированной группы CH17+CH19 нет ни в сопоставлении журнала, ни на фотографиях ([Доказательства](EVIDENCE.ru.md)).

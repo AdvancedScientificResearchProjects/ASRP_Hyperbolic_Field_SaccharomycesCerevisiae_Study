@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" width="1200" height="690" role="img" aria-labelledby="t d">
+<title id="t">Planned analysis stack</title>
+<desc id="d">Redrawn from the earlier diagram charts/mermaid/root_2.png. A phone camera image is restored with Cellpose3, then an image-type decision splits it. Microscopy goes to YeastSAM cell segmentation and morphometry (size, budding index). A macro Petri dish goes to OpenCV turbidity and colony measurement, then CIELAB to OD600 and HSV viability. Both branches feed AMiGA growth curves, then LME and ANOVA statistics, then results.</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='690' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>Planned analysis stack</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Earlier diagram, redrawn; this is the plan, not the analysed batch</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>PLANNED STACK · REDRAWN</text>
+<rect x='24' y='212' width='130' height='116' rx='12' fill='#0b1430' stroke='#8ea0d6' stroke-width='1.6'/>
+<text x='89.0' y='267.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Phone</text>
+<text x='89.0' y='289.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>camera</text>
+<rect x='172' y='212' width='160' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='252.0' y='257.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Cellpose3</text>
+<text x='252.0' y='277.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Restore / denoise</text>
+<text x='252.0' y='298.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<polygon points='420,208 496,270 420,332 344,270' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='420' y='275.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='middle' font-weight='700'>Image type</text>
+<defs><marker id='m4ecdc4' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0,0 L10,5 L0,10z' fill='#4ecdc4'/></marker></defs>
+<path d='M156.0,270.0 L169.0,270.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<path d='M334.0,270.0 L341.0,270.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<text x='520' y='104' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='start' font-weight='800'>MICROSCOPY</text>
+<text x='520' y='304' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='start' font-weight='800'>MACRO PETRI</text>
+<rect x='520' y='112' width='200' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='620.0' y='157.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>YeastSAM</text>
+<text x='620.0' y='177.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Cell segmentation</text>
+<text x='620.0' y='198.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<rect x='740' y='112' width='200' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='840.0' y='157.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Morphometry</text>
+<text x='840.0' y='177.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>size, budding index</text>
+<text x='840.0' y='198.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<rect x='520' y='312' width='200' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='620.0' y='357.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>OpenCV</text>
+<text x='620.0' y='377.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Turbidity + colony</text>
+<text x='620.0' y='398.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<rect x='740' y='312' width='200' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='840.0' y='357.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>CIELAB -&gt; OD600</text>
+<text x='840.0' y='377.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Viability / HSV</text>
+<text x='840.0' y='398.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<defs><marker id='mffcf5c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0,0 L10,5 L0,10z' fill='#ffcf5c'/></marker></defs>
+<path d='M499.0,270.0 L508.0,270.0 L508.0,170.0 L517.0,170.0' fill='none' stroke='#ffcf5c' stroke-width='2' marker-end='url(#mffcf5c)'></path>
+<path d='M508.0,270.0 L508.0,370.0 L517.0,370.0' fill='none' stroke='#ffcf5c' stroke-width='2' marker-end='url(#mffcf5c)'></path>
+<path d='M722.0,170.0 L737.0,170.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<path d='M722.0,370.0 L737.0,370.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<rect x='970' y='212' width='206' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='1073.0' y='257.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>AMiGA</text>
+<text x='1073.0' y='277.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Growth curves</text>
+<text x='1073.0' y='298.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<path d='M942.0,170.0 L956.0,170.0 L956.0,250.0 L967.0,250.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<path d='M942.0,370.0 L956.0,370.0 L956.0,290.0 L967.0,290.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<rect x='970' y='372' width='206' height='116' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='1073.0' y='417.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>LME + ANOVA</text>
+<text x='1073.0' y='437.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='400'>Statistics</text>
+<text x='1073.0' y='458.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DECLARED</text>
+<path d='M1073.0,331.0 L1073.0,369.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<rect x='970' y='512' width='206' height='116' rx='12' fill='#0b1430' stroke='#34d399' stroke-width='1.6'/>
+<text x='1073.0' y='578.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>Results</text>
+<path d='M1073.0,491.0 L1073.0,509.0' fill='none' stroke='#4ecdc4' stroke-width='2' marker-end='url(#m4ecdc4)'></path>
+<text x='24' y='656' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Planned tools as drawn earlier. The analysed batch used cyto2 cell</text>
+<text x='24' y='676' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>count, texture occupancy and blind LLM scoring (see Analysis flow).</text>
+</svg>

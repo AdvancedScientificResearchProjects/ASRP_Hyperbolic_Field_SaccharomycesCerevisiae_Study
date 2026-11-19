@@ -22,6 +22,7 @@
 | код анализа | [`scripts/cv_analysis/`](../scripts/cv_analysis/occupancy.py), [`scripts/llm_analysis/`](../scripts/llm_analysis/run_single.py) |
 | регистрация и патентная заявка | [Экосистема, регистрация и патент](ECOSYSTEM.ru.md); [`OSF_PREREGISTRATION.md`](../OSF_PREREGISTRATION.md) |
 | термины: псевдорепликация, занятость, конечная точка | [Глоссарий](GLOSSARY.ru.md) |
+| все схемы, графики и фотографии | [Рисунки](FIGURES.ru.md) |
 | что пока не сходится | [Открытые вопросы](OPEN.ru.md) |
 | хаб данных прежнего README | [`data/README.md`](../data/README.md) (частично устарел) |
 | прежние англоязычный и русскоязычный README | [`en/README.md`](../en/README.md), [`ru/README.md`](../ru/README.md) |

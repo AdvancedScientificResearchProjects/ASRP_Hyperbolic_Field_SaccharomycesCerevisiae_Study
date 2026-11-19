@@ -38,6 +38,5 @@
 <text x='810' y='361.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>только перечислены, ничего не импортируется</text>
 <defs><marker id='m8ea0d6' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0,0 L10,5 L0,10z' fill='#8ea0d6'/></marker></defs>
 <path d='M773.0,275.0 L793.0,335.0' fill='none' stroke='#8ea0d6' stroke-width='2' stroke-dasharray='7 6' marker-end='url(#m8ea0d6)'></path>
-<text x='24' y='426' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>По решению владельца заявители физические лица; компания только</text>
-<text x='24' y='446' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>адрес для переписки.</text>
+<text x='24' y='446' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Репозиторий заявителей не называет; заявка — не выданный патент.</text>
 </svg>
