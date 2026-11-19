@@ -1,0 +1,1124 @@
+{
+ "waivers": [
+  {
+   "check": "H3_numbers_missing",
+   "match": "\"37\"",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "H3_numbers_missing",
+   "match": "\"468320\"",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "H3_numbers_missing",
+   "match": "\"56\"",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,00006\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,016\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,05\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,2\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,5\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,8\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,81\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"0,88\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"09.06.2026\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_en",
+   "match": "\"1,0\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_ru",
+   "match": "\"0.016\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_ru",
+   "match": "\"0.2\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S4_numbers_missing_in_ru",
+   "match": "\"0.8\"",
+   "reason": "Not a loss: decimal separator or date format of the Russian text (0,016 against 0.016, 09.06.2026 against 2026-06-09); the same number is present in the other language corpus."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"AI-АНАЛИЗ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"AI-Анализ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ANALYSIS PIPELINE\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ASRP ECOSYSTEM\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ASRP Ecosystem\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Analysis Pipeline\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"COMPARATIVE RESULTS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"CONTACT INFORMATION\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Channel Predictions\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Control Variables\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"DATA STRUCTURE\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Data Center\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Data Classification\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Data Exclusion\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Data Structure\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Date Accepted\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Date Submitted\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Derived Indices\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Design Type\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"EXPERIMENTAL DESIGN\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Emitter Power\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Emitter System\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Eva Ovseannicova\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Experimental Design\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Full LLM\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Galina Ovseannicova\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Irradiation Duration\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"KEY FINDINGS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"KEY METRICS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"KEY RESULTS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Key Metrics\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Key Results\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Komarova St\"",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Laboratory Assistant\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Light Sensors\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Logging Interval\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ML ANALYSIS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ML Analysis\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Methylene Blue Staining\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Model Organism\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"NAVIGATION INDEX\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"OSF PREREGISTRATION\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"OSF Registered\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"OSF Registration\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"OUTCOME VARIABLES\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Observation Schedule\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Outcome Variables\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"PATENT CONNECTION\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Patent Connection\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Patent Portfolio\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Pipeline Architecture\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Primary Analysis\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Primary Outcomes\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"QUICK NAVIGATION\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Quick Reader's Guide\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"RESEARCH TEAM\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Related Research Repositories\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"STATISTICAL ANALYSIS\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Sample Groups\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Senior Laboratory Assistant\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Stack Overview\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Staining Supplies\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Statistical Analysis\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Study Type\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Success Criteria\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Temperature Sensors\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Total Sample Size\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Viability Assay\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"АНАЛИТИЧЕСКИЙ ПАЙПЛАЙН\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Анализ Жизнеспособности\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Аппаратному Обеспечению\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Архитектура Пайплайна\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"БЫСТРАЯ НАВИГАЦИЯ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ВРЕМЕННАЯ ШКАЛА\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Галина Овсянникова\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Главный Инженер\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"График Наблюдений\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Группы Образцов\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Динамику Ферментации Saccharomyces\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Дорожная Карта\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Ева Овсянникова\"",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Исключение Данных\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Исследование Влияния Гиперболических Полей\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Исследование Кристаллов DAAT\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"КЛЮЧЕВЫЕ ВЫВОДЫ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"КЛЮЧЕВЫЕ МЕТРИКИ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"КЛЮЧЕВЫЕ СЛОВА\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"КОНТАКТНАЯ ИНФОРМАЦИЯ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Ключевые Метрики\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Контрольные Переменные\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Критерии Успеха\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"НАВИГАЦИОННЫЙ ИНДЕКС\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Обзор Стека\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Окрашивание Метиленовым Синим\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ПЕРЕМЕННЫЕ ИСХОДА\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ OSF\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Патентный Портфель\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Первичные Показатели\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Первичный Анализ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Полный LLM-анализ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Программы Излучателей\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Производные Индексы\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"СВЯЗЬ С ПАТЕНТОМ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"СТАТИСТИЧЕСКИЙ АНАЛИЗ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"СТРУКТУРА ДАННЫХ\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Связанные Исследовательские Репозитории\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Сельскохозяйственное Исследование\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Слепая LLM-оценка\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Тип Дизайна\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Ул. Комарова\"",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Фрактальной Биомедицинской Системе Гиперболического Поля\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Хроно-Регуляторные Эффекты Модуляции Гиперболическим Полем\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"Часть Экосистемы ASRP\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ЭКОСИСТЕМА ASRP\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S1_names_missing",
+   "match": "\"ЭКСПЕРИМЕНТАЛЬНЫЙ ДИЗАЙН\"",
+   "reason": "Not a loss: heading or label of the old README renamed (case, wording or language split). The legacy anchor of the old heading is kept in README.md (tools/build_legacy_map.py)."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 15,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 41,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 42,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 42,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 43,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 43,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 44,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 44,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 45,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 46,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 46,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 47,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 47,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 48,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 48,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 49,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 49,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 50,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 50,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 51,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 51,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 52,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 54,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 54,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 94,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 111,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 189,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 274,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 275,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 277,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 278,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 279,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 318,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 324,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 353,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 370,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 372,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 380,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 380,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 380,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 380,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 381,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 390,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 392,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 429,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 441,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 459,",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 465,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 485,",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 485,",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 486,",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 486,",
+   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 517,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 521,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 523,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 524,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 525,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 526,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 527,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 528,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 529,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 530,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 533,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 534,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 535,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 536,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 537,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 538,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 540,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 542,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 544,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 545,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 546,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 548,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 549,",
+   "reason": "Not a loss: the ASCII folder tree with bilingual comments is replaced by the folder table on guide/DATA.md and the generated tree on guide/NAVIGATION.md; every folder is still named."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 552,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 568,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 570,",
+   "reason": "Not a loss: a bilingual label or short cell of the old README ('EN / RU') is split into the English and Russian pages; the wording is kept by translation, so word-trigram coverage of the mixed line is low."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 596,",
+   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 604,",
+   "reason": "Wording corrected on purpose: the old text claimed more than the study's own report (e.g. 'reproducible', 'preregistered before data collection') or is restated in the page's own sentences; the numbers and facts are kept and the stricter wording of the report is used."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 608,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 608,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 630,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 630,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 652,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 652,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 660,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 660,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 679,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 679,",
+   "reason": "Not a loss: glossary column headers ('English meaning' / 'Значение по-русски') are shortened on the language-split glossary pages."
+  },
+  {
+   "check": "S2_low_coverage_segments",
+   "match": "\"line\": 713,",
+   "reason": "Not a loss: the old front-page navigation table and index are rebuilt (icons, page links, evidence states in place of 'Defined / Planned' labels); every old section is still reachable and its legacy anchor is kept."
+  }
+ ]
+}

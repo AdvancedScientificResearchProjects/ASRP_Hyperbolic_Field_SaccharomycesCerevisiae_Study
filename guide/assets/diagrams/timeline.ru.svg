@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-labelledby="t d">
+<title id="t">План и то, что записано в репозитории</title>
+<desc id="d">Две дорожки по восемь событий, по порядку, без масштаба. Первая, план со схемы прежнего README: Mar 28 Команда собрана, протокол определён; Mar 29 Модернизация излучателя 0,7 Вт до 60 / 144 Вт; Mar 31 Микроскопия и окрашивание валидированы; Apr 4 OSF: предрегистрация подана; Apr 7 Регистрация OSF принята; Q2 2026 Начало экспериментов по облучению; Q3–Q4 2026 Сбор данных и CV-анализ; Q3–Q4 2026 Подготовка публикации. Вторая, что записано в репозитории: 2026-03-28 Репозиторий создан (первый коммит); 2026-04-04 OSF: проект osf.io/vxkum; 2026-04-19 Первые снимки (198 с датой, до 2026-04-22); 2026-05-06 В репозиторий добавлен хаб фото и манифест; 2026-06-09 Отчёт v2 по плотности: лишь сигнал; 2026-06-10 Файл предрегистрации впервые закоммичен, результаты уже в нём; 2026-07-18 Последнее изменение: README по шаблону дома; 2026-11-19 Новая структура README (это изменение).</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='590' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>План и то, что записано в репозитории</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Без масштаба; даты записи взяты из истории git и файлов репозитория</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>ХРОНОЛОГИЯ</text>
+<text x='24' y='112' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#ffcf5c' text-anchor='start' font-weight='800'>ПЛАН (схема прежнего README)</text>
+<line x1='24' y1='130' x2='1176' y2='130' stroke='#ffcf5c' stroke-width='2' stroke-opacity='0.6'/>
+<circle cx='92.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='24.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='34.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 28</text>
+<text x='34.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Команда</text>
+<text x='34.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>собрана,</text>
+<text x='34.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>протокол</text>
+<text x='34.0' y='252.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>определён</text>
+<circle cx='237.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='169.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='179.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 29</text>
+<text x='179.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Модернизация</text>
+<text x='179.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>излучателя 0,7</text>
+<text x='179.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Вт до 60 / 144</text>
+<text x='179.0' y='252.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Вт</text>
+<circle cx='382.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='314.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='324.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Mar 31</text>
+<text x='324.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Микроскопия и</text>
+<text x='324.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>окрашивание</text>
+<text x='324.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>валидированы</text>
+<circle cx='527.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='459.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='469.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Apr 4</text>
+<text x='469.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF:</text>
+<text x='469.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>предрегистрация</text>
+<text x='469.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>подана</text>
+<circle cx='672.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='604.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='614.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Apr 7</text>
+<text x='614.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Регистрация</text>
+<text x='614.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF принята</text>
+<circle cx='817.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='749.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='759.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q2 2026</text>
+<text x='759.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Начало</text>
+<text x='759.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>экспериментов</text>
+<text x='759.0' y='232.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>по облучению</text>
+<circle cx='962.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='894.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='904.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q3–Q4 2026</text>
+<text x='904.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Сбор данных и</text>
+<text x='904.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>CV-анализ</text>
+<circle cx='1107.5' cy='130' r='6' fill='#ffcf5c'/>
+<rect x='1039.0' y='146' width='137.0' height='124' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='1049.0' y='172.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>Q3–Q4 2026</text>
+<text x='1049.0' y='192.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Подготовка</text>
+<text x='1049.0' y='212.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>публикации</text>
+<text x='24' y='312' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='800'>ЗАПИСАНО В РЕПОЗИТОРИИ</text>
+<line x1='24' y1='330' x2='1176' y2='330' stroke='#4ecdc4' stroke-width='2' stroke-opacity='0.6'/>
+<circle cx='92.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='24.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='34.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-03-28</text>
+<text x='34.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Репозиторий</text>
+<text x='34.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>создан (первый</text>
+<text x='34.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>коммит)</text>
+<circle cx='237.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='169.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='179.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-04-04</text>
+<text x='179.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF: проект</text>
+<text x='179.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>osf.io/vxkum</text>
+<circle cx='382.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='314.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='324.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-04-19</text>
+<text x='324.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Первые снимки</text>
+<text x='324.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>(198 с датой, до</text>
+<text x='324.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>2026-04-22)</text>
+<circle cx='527.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='459.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='469.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-05-06</text>
+<text x='469.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>В репозиторий</text>
+<text x='469.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>добавлен хаб</text>
+<text x='469.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>фото и манифест</text>
+<circle cx='672.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='604.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='614.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-06-09</text>
+<text x='614.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Отчёт v2 по</text>
+<text x='614.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>плотности: лишь</text>
+<text x='614.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>сигнал</text>
+<circle cx='817.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='749.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='759.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-06-10</text>
+<text x='759.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Файл</text>
+<text x='759.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>предрегистрации</text>
+<text x='759.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>впервые</text>
+<text x='759.0' y='452.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>закоммичен,</text>
+<text x='759.0' y='472.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>результаты уже</text>
+<text x='759.0' y='492.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>в нём</text>
+<circle cx='962.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='894.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='904.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-07-18</text>
+<text x='904.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Последнее</text>
+<text x='904.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>изменение:</text>
+<text x='904.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>README по</text>
+<text x='904.0' y='452.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>шаблону дома</text>
+<circle cx='1107.5' cy='330' r='6' fill='#4ecdc4'/>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='#0b1430' stroke='#4ecdc4' stroke-width='1.6'/>
+<text x='1049.0' y='372.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='start' font-weight='700'>2026-11-19</text>
+<text x='1049.0' y='392.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Новая структура</text>
+<text x='1049.0' y='412.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>README (это</text>
+<text x='1049.0' y='432.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>изменение)</text>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='none' stroke='#070b18' stroke-width='4'/>
+<rect x='1039.0' y='346' width='137.0' height='175' rx='12' fill='none' stroke='#4ecdc4' stroke-width='2' stroke-dasharray='6 5'/>
+<text x='24' y='556' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Шаги плана по облучению, ферментации и публикации пока без</text>
+<text x='24' y='576' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>записанного результата.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-labelledby="t d">
+<title id="t">Hyperbolic Field × Yeast</title>
+<desc id="d">Generated illustration, not a screenshot. Left: four bars, mean cells per 100x microscope field in cycles 2 and 3 (control 112, channel 17 205, channel 19 118, channel 21 88), a preliminary density result. Right: the title, a one-line question and three figures computed from the repository: 990 microscopy images, 3 experiment cycles, 11 registered hypotheses.</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='330' rx='18' fill='url(#bg)'/>
+
+<text x='40' y='50' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700'>mean cells per 100× field, cycles 2–3</text>
+<line x1='44' y1='250' x2='456' y2='250' stroke='#2a3b78' stroke-width='1.5'/>
+<rect x='50.0' y='161.4' width='86.5' height='88.6' rx='6' fill='#8ea0d6' fill-opacity='0.85'/>
+<text x='93.2' y='153.4' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>112</text>
+<text x='93.2' y='272' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='600'>CH0</text>
+<rect x='154.5' y='87.9' width='86.5' height='162.1' rx='6' fill='#4ecdc4' fill-opacity='0.85'/>
+<text x='197.8' y='79.9' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>205</text>
+<text x='197.8' y='272' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='600'>CH17</text>
+<rect x='259.0' y='156.7' width='86.5' height='93.3' rx='6' fill='#a78bfa' fill-opacity='0.85'/>
+<text x='302.2' y='148.7' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>118</text>
+<text x='302.2' y='272' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='600'>CH19</text>
+<rect x='363.5' y='180.4' width='86.5' height='69.6' rx='6' fill='#ffa657' fill-opacity='0.85'/>
+<text x='406.8' y='172.4' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='middle' font-weight='700'>88</text>
+<text x='406.8' y='272' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='middle' font-weight='600'>CH21</text>
+<text x='520' y='86' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700' letter-spacing='2'>SACCHAROMYCES CEREVISIAE STUDY</text>
+<text x='1164' y='36' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='end' font-weight='700' letter-spacing='2'>PRIVATE REPO · RESULTS PRELIMINARY</text>
+<text x='520' y='146' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='46' fill='#e6ecff' text-anchor='start' font-weight='800'>Hyperbolic Field × Yeast</text>
+<text x='520' y='188' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='21' fill='#8ea0d6' text-anchor='start' font-weight='400'>Does a structured field change how yeast</text>
+<text x='520' y='216' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='21' fill='#8ea0d6' text-anchor='start' font-weight='400'>divides? One imaging batch so far</text>
+<rect x='520.0' y='252' width='114.6' height='38' rx='19' fill='#ffcf5c' fill-opacity='0.08' stroke='#ffcf5c'/>
+<text x='577.3' y='277' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='middle' font-weight='700'>990 images</text>
+<rect x='646.6' y='252' width='178.7' height='38' rx='19' fill='#4ecdc4' fill-opacity='0.08' stroke='#4ecdc4'/>
+<text x='735.9' y='277' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='middle' font-weight='700'>3 experiment cycles</text>
+<rect x='837.3' y='252' width='136.8' height='38' rx='19' fill='#34d399' fill-opacity='0.08' stroke='#34d399'/>
+<text x='905.7' y='277' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#e6ecff' text-anchor='middle' font-weight='700'>11 hypotheses</text>
+<text x='24' y='316' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>first analysed batch; fermentation kinetics not yet measured</text>
+</svg>

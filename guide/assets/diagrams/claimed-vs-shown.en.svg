@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 836" width="1200" height="836" role="img" aria-labelledby="t d">
+<title id="t">What is claimed and what was shown</title>
+<desc id="d">Seven rows: topic, what the README or protocol says, what the files show, and a state word. Fermentation kinetics claimed as primary; no such data (not done). Direction of the density effect: CH17 more cells, CH21 fewer; shown in two cycles, cycle 1 reverses (preliminary). Replication: README says reproducible; the report says not yet (preliminary). Preregistered before data: the in-repository file was added on 2026-06-10, after the data (disputed). CH19 faster division: not supported on this batch (not shown). Blinded randomised design: blinding at scoring only (partly). Patent: an application number only (application).</desc>
+<defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#070b18'/><stop offset='1' stop-color='#0d1530'/></linearGradient><filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='3' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect width='1200' height='836' rx='18' fill='url(#bg)'/>
+
+<text x='24' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='26' fill='#e6ecff' text-anchor='start' font-weight='700'>What is claimed and what was shown</text>
+<text x='24' y='72' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#8ea0d6' text-anchor='start' font-weight='400'>Left: the claim as written. Right: what the repository files show</text>
+<text x='1176' y='46' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='end' font-weight='700' letter-spacing='2'>CLAIMED VS SHOWN</text>
+<text x='24' y='108' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700'>TOPIC</text>
+<text x='190' y='108' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700'>CLAIMED</text>
+<text x='560' y='108' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700'>SHOWN IN THE REPOSITORY</text>
+<text x='1000' y='108' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='14' fill='#4ecdc4' text-anchor='start' font-weight='700'>STATE</text>
+<text x='24' y='171.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Primary outcome</text>
+<rect x='190' y='124' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='163.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Fermentation rate, gas, onset; indices FAI, FDI,</text>
+<text x='204' y='183.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>FPI</text>
+<rect x='560' y='124' width='428' height='84' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='574' y='173.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>No fermentation, gas or OD600 data; only microscopy photos</text>
+<rect x='1000' y='124' width='176' height='84' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='1088.0' y='173.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffa657' text-anchor='middle' font-weight='800'>✕ NOT DONE</text>
+<text x='24' y='263.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Density signal</text>
+<rect x='190' y='216' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='265.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>CH17 raises, CH21 lowers cell count</text>
+<rect x='560' y='216' width='428' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='574' y='265.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>+83% / −21% in cycles 2–3 (n = 2 cycles); cycle 1 reverses</text>
+<rect x='1000' y='216' width='176' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='1088.0' y='265.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='middle' font-weight='800'>◧ PRELIMINARY</text>
+<text x='24' y='355.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Replication</text>
+<rect x='190' y='308' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='357.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>README: 'reproducible directional effect'</text>
+<rect x='560' y='308' width='428' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='574' y='347.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Report: 'not yet a reproducible effect'; needs 5 or more</text>
+<text x='574' y='367.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>cycles</text>
+<rect x='1000' y='308' width='176' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='1088.0' y='357.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='middle' font-weight='800'>◧ PRELIMINARY</text>
+<text x='24' y='447.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Preregistration</text>
+<rect x='190' y='400' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='449.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Hypotheses registered before data collection</text>
+<rect x='560' y='400' width='428' height='84' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='574' y='439.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>OSF_PREREGISTRATION.md first added 2026-06-10, after</text>
+<text x='574' y='459.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>the data</text>
+<rect x='1000' y='400' width='176' height='84' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='1088.0' y='449.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ DISPUTED</text>
+<text x='24' y='539.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>CH19 division rate</text>
+<rect x='190' y='492' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='541.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>CH19 accelerates division</text>
+<rect x='560' y='492' width='428' height='84' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='574' y='531.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Not supported on this batch: count equals control, cells</text>
+<text x='574' y='551.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>rounder, budding flat</text>
+<rect x='1000' y='492' width='176' height='84' rx='12' fill='#0b1430' stroke='#ffa657' stroke-width='1.6'/>
+<text x='1088.0' y='541.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffa657' text-anchor='middle' font-weight='800'>✕ NOT DONE</text>
+<text x='24' y='631.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Design</text>
+<rect x='190' y='584' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='633.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Randomised double-blind RCT, N = 25–50</text>
+<rect x='560' y='584' width='428' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='574' y='633.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>Blinding at scoring only; no randomisation log; 4 groups of 5</text>
+<rect x='1000' y='584' width='176' height='84' rx='12' fill='#0b1430' stroke='#ffcf5c' stroke-width='1.6'/>
+<text x='1088.0' y='633.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#ffcf5c' text-anchor='middle' font-weight='800'>◧ PARTLY</text>
+<text x='24' y='723.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='15' fill='#e6ecff' text-anchor='start' font-weight='700'>Patent</text>
+<rect x='190' y='676' width='358' height='84' rx='12' fill='#0b1430' stroke='#6f9bff' stroke-width='1.6'/>
+<text x='204' y='725.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>KZ 2025/1095.1, substantive exam</text>
+<rect x='560' y='676' width='428' height='84' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='574' y='725.0' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>An application number only; applicant not stated; not granted</text>
+<rect x='1000' y='676' width='176' height='84' rx='12' fill='#0b1430' stroke='#a78bfa' stroke-width='1.6'/>
+<text x='1088.0' y='725.5' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#a78bfa' text-anchor='middle' font-weight='800'>◇ APPLICATION</text>
+<text x='24' y='802' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>A claim is filed as shown only when a file in the repository carries</text>
+<text x='24' y='822' font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size='13' fill='#8ea0d6' text-anchor='start' font-weight='400'>it. Full rows with file and line: guide/EVIDENCE.md.</text>
+</svg>
