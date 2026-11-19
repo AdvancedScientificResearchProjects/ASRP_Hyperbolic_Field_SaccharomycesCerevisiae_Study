@@ -289,7 +289,7 @@ This study is grounded in the Fractal Biomedical Hyperbolic Field System patent 
 |---|---|---|---|
 | **Fractal Biomedical Hyperbolic Field System** | KZ 2025/1095.1 | Substantive Exam (as written in the earlier README; an application, not a granted patent) | [View](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) |
 
-**Who holds it.** This repository does not name the applicants of the Kazakhstan filings. The company (the TOO / LLP) appears only as a correspondence address or fee payer; an application is not a granted patent. The earlier README does not name the applicant; this repository holds no filing text.
+**Who holds it.** This repository does not name the applicants of the Kazakhstan filings. An application is not a granted patent. The earlier README does not name the applicant; this repository holds no filing text.
 
 <div align="center">
 <a href="guide/assets/diagrams/patent-connection.en.svg"><img src="guide/assets/diagrams/patent-connection.en.svg" width="100%" alt="Earlier diagram of the patent connection"></a><br>
@@ -398,10 +398,10 @@ The subject of the study is yeast, so there is no participant data. The photogra
 ### IP status
 
 - The linked filing KZ 2025/1095.1 is a patent **application** (stated status: substantive examination). It is not a granted patent and it does not validate the field effect.
-- This repository does not name the applicants of the Kazakhstan filings; the company is a correspondence address or fee payer only; an application is not a granted patent ([Ecosystem](guide/ECOSYSTEM.md#patent-connection)).
+- This repository does not name the applicants of the Kazakhstan filings; an application is not a granted patent ([Ecosystem](guide/ECOSYSTEM.md#patent-connection)).
 - The study text is licensed CC-BY-NC-ND 4.0 (below).
 
-### Before this repository is made public
+### Points to settle (the repository is public)
 
 The repository is public. Points a reviewer should settle first, taken from [Open questions](guide/OPEN.md): whether the preregistration file may be described as a registration, the wording of the README's results claims against the report, and the residential-style address and personal details of the earlier README (kept only in the archived copy).
 <!-- /excerpt -->

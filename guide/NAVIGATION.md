@@ -74,7 +74,7 @@ ASRP_Hyperbolic_Field_SaccharomycesCerevisiae_Study/
 
 ## Earlier README image links
 
-The earlier README embedded its charts with absolute links. They resolve only when the repository is public; the pages here use relative paths to the same files. The links, kept for reference:
+The earlier README embedded its charts with absolute links. They resolve only while the repository is public and keeps its old name; the pages here use relative paths to the same files. The links, kept for reference:
 
 - `https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study/main/charts/mermaid/root_1.png`
 - `https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study/main/charts/mermaid/root_2.png`

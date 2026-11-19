@@ -41,7 +41,7 @@ Every row below names its source (`path:line`, at the repository's commit `5942a
 
 - **Proven here** means a recomputation from the repository's own files reproduces the stated number. For the headline counts this was done (counts, per-cycle means, cycle-1 occupancy, mapping totals). It verifies the arithmetic and the join, not the imaging: there is no scale bar, the two CV methods share pixels and cyto2 undercounts by about 40% in dense fields.
 - **Claimed, not proven**: the whole fermentation programme, the LME analysis, the "blue whale" precedent, the combined CH17+CH19 group, confirmation at five cycles, the OD600 doubling-time curve, the budding-index time course, viability staining and time-lapse. All are plans or proposed follow-ups.
-- **Patents.** The earlier README names only an application number and the status "Substantive Exam". An application is an IP claim, not validation of the field effect and not a granted patent. This repository does not name the applicants of these filings; the company is a correspondence address or fee payer only; an application is not a granted patent (see [Ecosystem](ECOSYSTEM.md)).
+- **Patents.** The earlier README names only an application number and the status "Substantive Exam". An application is an IP claim, not validation of the field effect and not a granted patent. This repository does not name the applicants of these filings; an application is not a granted patent (see [Ecosystem](ECOSYSTEM.md)).
 
 ## The preregistration question
 
