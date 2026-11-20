@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 *.tmp
+
+# open-access PDFs fetched by scripts/fetch_literature.py (never commit)
+references/pdf/

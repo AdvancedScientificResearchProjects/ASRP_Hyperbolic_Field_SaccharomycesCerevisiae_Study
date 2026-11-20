@@ -1,0 +1,2656 @@
+{
+  "elements": [
+    {
+      "id": "asrp",
+      "label": "ASRP (Advanced Scientific Research Projects)",
+      "type": "legal-entity",
+      "icon": "🏢",
+      "labelRu": "ASRP (Перспективные научно-исследовательские разработки)",
+      "descriptionRu": "Независимая исследовательская группа, которая ведёт исследование и построила излучатель.",
+      "description": "Independent research group that runs the study and built the emitter.",
+      "tags": [
+        "legal-entity"
+      ]
+    },
+    {
+      "id": "hyperbolic-saccharomyces",
+      "label": "Hyperbolic Field Saccharomyces cerevisiae Study",
+      "type": "project",
+      "icon": "🚀",
+      "labelRu": "Исследование дрожжей Saccharomyces cerevisiae в гиперболическом поле",
+      "descriptionRu": "Пилот апреля 2026: пекарские дрожжи в чашках Петри, две жидкости, контроль и три настройки излучателя (17, 19, 21), три раунда; 972 фото через окуляр, из них посчитано 398. Статус по словам самого исследования: предварительно, не подтверждено.",
+      "description": "Pilot of April 2026: baker's yeast in Petri dishes, two liquids, a control and three emitter settings (17, 19, 21), three rounds; 972 eyepiece photos, 398 of them counted. Status in the study's own words: preliminary, not confirmatory.",
+      "url": "https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "id": "hyperbolic-blood-plasma",
+      "label": "Hyperbolic Field Blood Plasma Study",
+      "type": "project",
+      "icon": "🚀",
+      "labelRu": "Исследование плазмы крови в гиперболическом поле",
+      "descriptionRu": "Родственное исследование ASRP. Тексты по дрожжам называют его источником смысла настроек 19 и 21.",
+      "description": "Companion ASRP study. The yeast texts name it as the origin of the meanings of settings 19 and 21.",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "id": "hyperbolic-emitter-generator",
+      "label": "ASRP emitter (hyperbolic field generator)",
+      "type": "device",
+      "icon": "📟",
+      "labelRu": "Излучатель ASRP (генератор гиперболического поля)",
+      "descriptionRu": "По протоколу: 6 узлов, 60 Вт средняя / 144 Вт пиковая, чистая синусоида. Внутреннее устройство не опубликовано; излучаемое поле нигде в исследовании не задано в физических единицах.",
+      "description": "As written in the protocol: 6 nodes, 60 W average / 144 W peak, clean sine wave. Internal design not public; the emitted field is not specified in physical units anywhere in the study.",
+      "source": "reports/experiment_protocol_en.md:87",
+      "tags": [
+        "device"
+      ]
+    },
+    {
+      "id": "channel-17",
+      "label": "Emitter setting 17 (CH17)",
+      "type": "channel",
+      "icon": "📡",
+      "labelRu": "Настройка излучателя 17 (CH17)",
+      "descriptionRu": "Заранее «эффект неизвестен» (гипотеза H7). Настройка, с которой связан заголовок +83 %.",
+      "description": "A priori 'unknown effect' (hypothesis H7). The setting behind the +83 % headline.",
+      "source": "reports/experiment_protocol_en.md:27",
+      "tags": [
+        "channel"
+      ]
+    },
+    {
+      "id": "channel-19-21-taxonomy",
+      "label": "Emitter settings 19 and 21 ('time acceleration' / 'time deceleration')",
+      "type": "channel",
+      "icon": "📡",
+      "labelRu": "Настройки излучателя 19 и 21 («ускорение времени» / «замедление времени»)",
+      "descriptionRu": "Названия настроек 19 и 21 в протоколе. Исследование говорит, что номера — идентификаторы управляющей программы, а не физические частоты.",
+      "description": "The protocol's names for settings 19 and 21. The study says the numbers are control-software identifiers, not physical frequencies.",
+      "source": "reports/experiment_protocol_en.md:28",
+      "tags": [
+        "channel"
+      ]
+    },
+    {
+      "id": "fbhfs-patent",
+      "label": "Patent application KZ 2025/1095.1 (Fractal Biomedical Hyperbolic Field System)",
+      "type": "patent",
+      "icon": "📜",
+      "labelRu": "Патентная заявка KZ 2025/1095.1 (Fractal Biomedical Hyperbolic Field System)",
+      "descriptionRu": "Заявка, а не выданный патент; заявители в репозитории исследования не названы. По реестру не проверялось.",
+      "description": "An application, not a granted patent; applicants are not named in the study repository. Not checked against the register.",
+      "source": "guide/ECOSYSTEM.md:54",
+      "connected": false,
+      "tags": [
+        "patent"
+      ]
+    },
+    {
+      "id": "osf",
+      "label": "OSF (Open Science Framework)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "OSF (Open Science Framework)",
+      "descriptionRu": "Реестр, где размещены регистрации ASRP, на которые ссылается исследование.",
+      "description": "Registry that hosts the ASRP registrations cited by the study.",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "campaign-yeast-result-that-flipped",
+      "label": "Kickstarter campaign draft 'The Result That Flipped: an open lab notebook'",
+      "type": "campaign",
+      "icon": "📣",
+      "labelRu": "Черновик кампании Kickstarter «The Result That Flipped: открытый лабораторный журнал»",
+      "descriptionRu": "Черновик от 20 ноября 2026 в репозитории краудфандинга (campaigns/yeast-replication-study/). Финансирует слепое повторение и печатный журнал. Не запущена.",
+      "description": "Draft of 20 Nov 2026 in the crowdfunding repository (campaigns/yeast-replication-study/). Funds a blinded repeat and a printed notebook. Not launched.",
+      "status": "draft, not launched",
+      "tags": [
+        "campaign"
+      ]
+    },
+    {
+      "id": "pub-yeast-density-report",
+      "label": "Density report of 9 June 2026",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "Отчёт о плотности от 9 июня 2026",
+      "descriptionRu": "«Yeast Cell-Density Response to Hyperbolic-Field Exposure: Triangulated Image Analysis», v2. Отчёт в репозитории, без рецензирования. Строка статуса: «предварительный сигнал, не подтверждение».",
+      "description": "'Yeast Cell-Density Response to Hyperbolic-Field Exposure: Triangulated Image Analysis', v2. In-repository report, not peer reviewed. Status line: 'Preliminary signal — not confirmatory'.",
+      "date": "2026-06-09",
+      "source": "reports/2026-06-09_density-analysis/report_en.md",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "pub-yeast-protocol",
+      "label": "Experiment protocol",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "Протокол эксперимента",
+      "descriptionRu": "Установка, смысл каналов, расписание, зарегистрированная окраска на жизнеспособность. Рецепты двух жидкостей и условия контрольных чашек не записаны.",
+      "description": "Setup, channel mapping, schedule, registered viability stain. Recipes of the two liquids and the handling of the control dishes are not written down.",
+      "source": "reports/experiment_protocol_en.md",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "pub-yeast-prereg-file",
+      "label": "In-repository preregistration file",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "Файл пререгистрации в репозитории",
+      "descriptionRu": "OSF_PREREGISTRATION.md, впервые закоммичен 2026-06-10, после данных и отчёта; содержит полученный результат. Это не замороженный апрельский текст регистрации.",
+      "description": "OSF_PREREGISTRATION.md, first committed 2026-06-10, after the data and the report; contains an observed result. Not the frozen April registration text.",
+      "date": "2026-06-10",
+      "source": "guide/EVIDENCE.md:31",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "pub-campaign-prereg-draft",
+      "label": "Pre-registration draft for the blinded repeat",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "Черновик пререгистрации слепого повторения",
+      "descriptionRu": "Черновик от 20 ноября 2026, не подан. Шесть прогонов, 144 чашки, счётная камера, внешний счётчик, три заранее заданные фразы результата. Пункты для статистика и руководителя лаборатории открыты.",
+      "description": "Draft of 20 Nov 2026, not filed. Six runs, 144 dishes, counting chamber, outside counter, three fixed result sentences. Items marked for a statistician and the lab lead are open.",
+      "date": "2026-11-20",
+      "source": "crowdfunding:campaigns/yeast-replication-study/launch/preregistration-draft.md",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "ev-yeast-round-1",
+      "label": "Round 1 (set 001), April 2026",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Раунд 1 (набор 001), апрель 2026",
+      "descriptionRu": "Первая партия облучения. Другой протокол съёмки: без разделения по увеличению, поэтому подсчёта клеток нет; только заполненность кадра.",
+      "description": "First exposure batch. Different imaging protocol: no magnification split, so no cell counts; occupancy only.",
+      "date": "2026-04",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:113",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-yeast-round-2",
+      "label": "Round 2 (set 002), April 2026",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Раунд 2 (набор 002), апрель 2026",
+      "descriptionRu": "Вторая партия облучения; фото на 100× посчитаны. Одна контрольная чашка с питательной жидкостью пролита и исключена.",
+      "description": "Second exposure batch; 100× photos counted. One control dish in the nutrient liquid spilled and is excluded.",
+      "date": "2026-04",
+      "source": "reports/experiment_protocol_en.md:106",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-yeast-round-3",
+      "label": "Round 3 (set 003), April 2026",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Раунд 3 (набор 003), апрель 2026",
+      "descriptionRu": "Третья партия облучения; фото на 100× посчитаны.",
+      "description": "Third exposure batch; 100× photos counted.",
+      "date": "2026-04",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:107",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-yeast-repeat-planned",
+      "label": "Planned blinded repeat (six runs, 144 dishes)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Плановое слепое повторение (шесть прогонов, 144 чашки)",
+      "descriptionRu": "Не начато. Сначала холостой прогон без излучателя; излучатель выключен, настройка 17 и настройка 21 в двух жидкостях; подсчёт внешним счётчиком и бэкерами до открытия ключа.",
+      "description": "Not started. A dry run without the emitter comes first; emitter off, setting 17 and setting 21 in two liquids; counts by an outside counter and by backers before the key is opened.",
+      "status": "planned",
+      "source": "crowdfunding:campaigns/yeast-replication-study/launch/preregistration-draft.md:41",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ds-yeast-photos",
+      "label": "Photo set (972 eyepiece photos + 18 digital frames)",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Набор фото (972 фото через окуляр + 18 цифровых кадров)",
+      "descriptionRu": "data/photos/: оригиналы HEIC, снятые телефоном через окуляр. Масштабной линейки нет. Дата есть у 198 файлов, у 792 нет.",
+      "description": "data/photos/: HEIC originals taken with a phone through the eyepiece. No scale bar. 198 files carry a date, 792 do not.",
+      "source": "guide/EVIDENCE.md:36",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "ds-yeast-journal-mapping",
+      "label": "Journal mapping (photo number to dish)",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Соответствие журнала (номер фото → чашка)",
+      "descriptionRu": "data/photos/journal-mapping.csv: расшифровка рукописного журнала на трёх страницах; единственная связь фото с каналом, жидкостью, раундом и увеличением.",
+      "description": "data/photos/journal-mapping.csv: transcription of a handwritten three-page journal; the only link between a photo and its channel, liquid, round and magnification.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:219",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "ds-yeast-white-counts",
+      "label": "Cell counts, 398 photos at 100×",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Подсчёт клеток, 398 фото на 100×",
+      "descriptionRu": "results/cv_analysis/white_counts.csv (и JSON-копия): автоматический подсчёт, только раунды 2 и 3.",
+      "description": "results/cv_analysis/white_counts.csv (and the JSON twin): automatic counts, rounds 2 and 3 only.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:214",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "ds-yeast-occupancy",
+      "label": "Occupancy scores, 972 photos",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Оценки заполненности кадра, 972 фото",
+      "descriptionRu": "results/cv_analysis/occupancy_full.csv: доля кадра, занятая клетками; единственная мера, которая есть для раунда 1.",
+      "description": "results/cv_analysis/occupancy_full.csv: share of each photo covered by cells; the only measure that exists for round 1.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:216",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "ds-yeast-llm-scores",
+      "label": "Blind vision-model scores, 920 photos",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Слепые оценки модели зрения, 920 фото",
+      "descriptionRu": "results/llm_full/llm_full.json: одна оценка плотности на фото от модели зрения, видевшей только нейтральные имена файлов.",
+      "description": "results/llm_full/llm_full.json: one density estimate per photo from a vision model that saw neutral file names only.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:217",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "ds-yeast-medium-split",
+      "label": "Recount split by liquid (20 Nov 2026)",
+      "type": "dataset",
+      "icon": "🗂️",
+      "labelRu": "Пересчёт с разделением по жидкости (20 ноября 2026)",
+      "descriptionRu": "Таблица, сделанная для кампании из публичного файла подсчёта и соответствия журнала: средние по жидкости, по раунду и по чашке.",
+      "description": "Table made for the campaign from the public count file and the journal mapping: means by liquid, by round and by dish.",
+      "date": "2026-11-20",
+      "source": "crowdfunding:campaigns/yeast-replication-study/research/medium-split-out/medium_split_table.md",
+      "tags": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "tool-cellpose-cyto2",
+      "label": "Cellpose, model cyto2",
+      "type": "tooling-class",
+      "icon": "🛠️",
+      "labelRu": "Cellpose, модель cyto2",
+      "descriptionRu": "Открытая сеть сегментации, применена как есть (без дообучения) для подсчёта клеток на 100×.",
+      "description": "Open-source segmentation network used out of the box (no fine-tuning) to count cells at 100×.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:44",
+      "tags": [
+        "tooling-class"
+      ]
+    },
+    {
+      "id": "tool-yeast-occupancy",
+      "label": "Occupancy score (texture + Otsu + Canny)",
+      "type": "tooling-class",
+      "icon": "🛠️",
+      "labelRu": "Оценка заполненности (текстура + Оцу + Канни)",
+      "descriptionRu": "Собственный скрипт scripts/cv_analysis/occupancy.py; читает те же пиксели, что и счётчик клеток.",
+      "description": "In-house script scripts/cv_analysis/occupancy.py; reads the same pixels as the cell counter.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:45",
+      "tags": [
+        "tooling-class"
+      ]
+    },
+    {
+      "id": "tool-yeast-blind-llm",
+      "label": "Blind vision-model scoring",
+      "type": "tooling-class",
+      "icon": "🛠️",
+      "labelRu": "Слепая оценка моделью зрения",
+      "descriptionRu": "Один проход мультимодальной модели на фото, условие не раскрывается (scripts/llm_analysis/).",
+      "description": "One pass of a multimodal model per photo, condition not disclosed (scripts/llm_analysis/).",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:46",
+      "tags": [
+        "tooling-class"
+      ]
+    },
+    {
+      "id": "dev-yeast-microscope-phone",
+      "label": "Light microscope with a phone at the eyepiece",
+      "type": "device",
+      "icon": "📟",
+      "labelRu": "Световой микроскоп с телефоном у окуляра",
+      "descriptionRu": "Конечные фото в HEIC через окуляр; два объектива («белый» и «жёлтый» в журнале); без масштабной линейки, без правила фокусировки.",
+      "description": "Endpoint photos in HEIC through the eyepiece; two objectives (the journal's 'white' and 'yellow'); no scale bar, no fixed focus rule.",
+      "source": "reports/experiment_protocol_en.md:57",
+      "tags": [
+        "device"
+      ]
+    },
+    {
+      "id": "dev-neubauer-chamber",
+      "label": "Counting chamber (improved Neubauer), planned",
+      "type": "device",
+      "icon": "📟",
+      "labelRu": "Счётная камера (улучшенная Нейбауэра), в плане",
+      "descriptionRu": "В плане повторения: квадраты известного объёма, чтобы счёт стал клетками на миллилитр и у каждого фото был масштаб.",
+      "description": "Planned for the repeat: squares of known volume, so that counts become cells per millilitre and every photo has a scale.",
+      "status": "planned",
+      "source": "crowdfunding:campaigns/yeast-replication-study/launch/preregistration-draft.md:79",
+      "tags": [
+        "device"
+      ]
+    },
+    {
+      "id": "role-yeast-lab-lead",
+      "label": "Lab lead of the yeast work",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Руководитель работ по дрожжам",
+      "descriptionRu": "Провела апрельский пилот и подтвердила смысл меток 9 июня 2026.",
+      "description": "Ran the April pilot and confirmed the label meanings on 9 June 2026.",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:21",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "role-yeast-photographer",
+      "label": "Pilot photographer (knew the group)",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Фотограф пилота (знал группу)",
+      "descriptionRu": "Снимал группу за группой, зная, какая чашка какая.",
+      "description": "Took the photos group by group, knowing which dish was which.",
+      "source": "crowdfunding:campaigns/yeast-replication-study/launch/preregistration-draft.md:25",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "role-key-holder",
+      "label": "Key holder outside ASRP (not yet named)",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Хранитель ключа вне ASRP (пока не назван)",
+      "descriptionRu": "В плане: составляет случайные списки и открывает ключ один раз, после заморозки всех подсчётов.",
+      "description": "Planned: draws the random lists and opens the key once, after all counts are frozen.",
+      "status": "open",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "role-outside-counter",
+      "label": "Outside counter (not yet named)",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Внешний счётчик (пока не назван)",
+      "descriptionRu": "В плане: делает основной подсчёт, не зная условия.",
+      "description": "Planned: makes the primary count without knowing the condition.",
+      "status": "open",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "role-statistician",
+      "label": "Statistician (not yet named)",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Статистик (пока не назван)",
+      "descriptionRu": "В плане: утверждает анализ, границу и число прогонов до подачи.",
+      "description": "Planned: approves the analysis, the margin and the number of runs before filing.",
+      "status": "open",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "role-backer-scorers",
+      "label": "Backer-scorers",
+      "type": "role",
+      "icon": "🎭",
+      "labelRu": "Бэкеры-счётчики",
+      "descriptionRu": "В плане: бэкеры, которые считают по 24 закодированных фото до открытия ключа; основной результат они не определяют.",
+      "description": "Planned: backers who count 24 coded photos each before the key is opened; they do not decide the primary result.",
+      "status": "planned",
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "id": "hyp-yeast-ch17-more-cells",
+      "label": "Setting 17 raises yeast cell density",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "Настройка 17 повышает плотность клеток дрожжей",
+      "descriptionRu": "Заранее не предсказывалось (H7: «неизвестно»). Статус: зацепка из двух раундов, в одной жидкости, в четырёх чашках; не воспроизведено.",
+      "description": "Not predicted beforehand (H7 said 'unknown'). Status: a lead from two rounds, in one liquid, in four dishes; not replicated.",
+      "status": "open",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-yeast-ch21-fewer-cells",
+      "label": "Setting 21 lowers yeast cell density",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "Настройка 21 понижает плотность клеток дрожжей",
+      "descriptionRu": "Совпадает с трактовкой «замедление» в раундах 2–3; в раунде 1 обратная картина.",
+      "description": "Matches the protocol's 'deceleration' reading in rounds 2-3; reversed in round 1.",
+      "status": "open",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-yeast-ch19-faster-division",
+      "label": "Setting 19 speeds up division (smaller, thinner cells, same count)",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "Настройка 19 ускоряет деление (клетки мельче и тоньше, число то же)",
+      "descriptionRu": "Вердикт самого отчёта: на этой партии не подтверждается; по одиночным снимкам непроверяемо.",
+      "description": "The report's own verdict: not supported on this batch; untestable from single snapshots.",
+      "status": "not supported",
+      "source": "reports/2026-06-09_density-analysis/report_en.md:201",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-yeast-handling-artefact",
+      "label": "The difference comes from handling and imaging, not from the emitter",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "Разница возникает из-за обращения с пробами и съёмки, а не из-за излучателя",
+      "descriptionRu": "Неравномерное наполнение, оседание, место взятия капли, более резкие фото, фотограф, знавший группу. Ничто из этого по файлам исключить нельзя.",
+      "description": "Uneven filling, settling, where the drop was taken, sharper photos, a photographer who knew the group. None can be ruled out from the files.",
+      "status": "open",
+      "source": "crowdfunding:campaigns/yeast-replication-study/story-and-film/story-v1.md:77",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "f-yeast-headline-83",
+      "label": "Setting 17: 205 cells per photo against 112 (+83 %), both liquids pooled",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Настройка 17: 205 клеток на фото против 112 (+83 %), обе жидкости вместе",
+      "descriptionRu": "Средний автоматический счёт на фото 100×, раунды 2–3: контроль 112 (82 фото), настройка 17 — 205 (112 фото), настройка 19 — 118, настройка 21 — 88. Пересчитано инструментами самого исследования из файла подсчёта; проверена арифметика и соединение таблиц, а не съёмка.",
+      "description": "Mean automatic count per 100× photo, rounds 2-3: control 112 (82 photos), setting 17 205 (112 photos), setting 19 118, setting 21 88. Recomputed by the study's own tools from the count file; verifies the arithmetic and the join, not the imaging.",
+      "confidence": "high",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:79",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-medium-split",
+      "label": "The excess exists only in the neutral liquid: 279 against 124; nutrient liquid 102 against 92",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Превышение есть только в нейтральной жидкости: 279 против 124; в питательной 102 против 92",
+      "descriptionRu": "Пересчёт 20 ноября 2026, среднее клеток на фото 100×: нейтральная 124,3 (контроль) и 279,3 (настройка 17); питательная 92,1 и 102,2. +83 % — среднее между «больше чем вдвое» и «ничего». Июньский отчёт по жидкостям не делил.",
+      "description": "Recount of 20 Nov 2026, mean cells per 100× photo: neutral 124.3 (control) and 279.3 (setting 17); nutrient 92.1 and 102.2. The +83 % is an average of 'more than double' and 'nothing'. The June report did not split by liquid.",
+      "confidence": "high",
+      "source": "ds-yeast-medium-split",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-four-dishes",
+      "label": "The neutral-liquid result rests on four dishes against four",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Результат в нейтральной жидкости держится на четырёх чашках против четырёх",
+      "descriptionRu": "Средние по чашкам, настройка 17: 286, 350, 237, 269; контроль: 66, 107, 182, 146. Все данные подсчёта держатся на 31 чашке.",
+      "description": "Dish means, setting 17: 286, 350, 237, 269; control: 66, 107, 182, 146. 31 dishes carry all the count evidence.",
+      "confidence": "high",
+      "source": "ds-yeast-medium-split",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-round1-flip",
+      "label": "Round 1 reverses the order: setting 21 highest (0.246 against 0.141)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Раунд 1 переворачивает порядок: настройка 21 выше всех (0,246 против 0,141)",
+      "descriptionRu": "По заполненности кадра, единственной мере в раунде 1, настройка 21 самая плотная, настройка 17 вторая. В раунде 1 был другой протокол съёмки.",
+      "description": "On occupancy, the only measure available in round 1, setting 21 is the densest and setting 17 is second. Round 1 used a different imaging protocol.",
+      "confidence": "high",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:113",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-sharpness",
+      "label": "Sharper photos give higher automatic counts, and the setting 17 photos were the sharpest",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Более резкие фото дают больший автоматический счёт, а фото настройки 17 были самыми резкими",
+      "descriptionRu": "Ранговая корреляция резкости и счёта 0,68 по 398 фото; средняя резкость фото настройки 17 в нейтральной жидкости 138 против 96. Из пересчёта кампании; для этого графа не пересчитывалось.",
+      "description": "Rank correlation between sharpness and count 0.68 over the 398 photos; mean sharpness of the setting 17 neutral photos 138 against 96. From the campaign's recount; not recomputed for this graph.",
+      "confidence": "medium",
+      "source": "pub-campaign-prereg-draft",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-twin-dishes",
+      "label": "Twin dishes differ from each other by a factor of about 1.4",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Чашки-близнецы различаются между собой примерно в 1,4 раза",
+      "descriptionRu": "Тот же раунд, жидкость и настройка; СО логарифма среднего по чашке 0,31 по 15 парам. Из пересчёта кампании; для этого графа не пересчитывалось.",
+      "description": "Same round, liquid and setting; SD of the log dish mean 0.31 over 15 pairs. From the campaign's recount; not recomputed for this graph.",
+      "confidence": "medium",
+      "source": "pub-campaign-prereg-draft",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-method-agreement",
+      "label": "Three scoring methods agree per photo (rho 0.81-0.89 at 100×)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Три метода оценки согласуются по фото (ρ 0,81–0,89 на 100×)",
+      "descriptionRu": "По отчёту; не пересчитывалось. Методы читают одни и те же фото, поэтому согласие защищает от артефакта алгоритма, но не съёмки.",
+      "description": "As reported; not recomputed. The methods read the same photos, so agreement guards against an algorithm artefact, not against an imaging one.",
+      "confidence": "medium",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:138",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-undercount-40",
+      "label": "'cyto2 misses about 40 % of cells in dense fields'",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "«cyto2 пропускает около 40 % клеток в плотных полях»",
+      "descriptionRu": "Заявлено в отчёте без ссылки на ручной подсчёт: кто считал и на скольких фото — в репозитории NOT FOUND.",
+      "description": "Stated in the report without a hand-count reference: who counted, and on how many photos, is NOT FOUND in the repository.",
+      "confidence": "low",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:187",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-prereg-after-data",
+      "label": "The plan naming cell density as the main outcome was written after the counts",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "План, называющий плотность клеток главным исходом, написан после подсчётов",
+      "descriptionRu": "Файл впервые закоммичен 2026-06-10; фото 2026-04-19 — 2026-04-22; отчёт 2026-06-09. Апрельская регистрация OSF публично не читается (API отвечает 401, проверено 2026-11-20).",
+      "description": "File first committed 2026-06-10; photos 2026-04-19 to 2026-04-22; report 2026-06-09. The April OSF registration is not publicly readable (API answers 401, checked 2026-11-20).",
+      "confidence": "high",
+      "source": "pub-yeast-prereg-file",
+      "where": "guide/EVIDENCE.md:31",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-yeast-ch19-area",
+      "label": "Setting 19 cells are 7.6 % smaller in area, but so are the cells of every exposed setting",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Клетки настройки 19 на 7,6 % меньше по площади, но так же и у всех облучённых настроек",
+      "descriptionRu": "Настройка 17 −12,7 %, настройка 21 −6,1 %; клетки не более вытянутые; оценка почкования ровная. По отчёту.",
+      "description": "Setting 17 −12.7 %, setting 21 −6.1 %; cells not more elongated; budding score flat. As reported.",
+      "confidence": "medium",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:201",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-asrp-plasma-precedent",
+      "label": "ASRP text: the plasma study showed setting 19 = fast clot, setting 21 = dense slow clot",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Текст ASRP: в исследовании плазмы настройка 19 = быстрый сгусток, настройка 21 = плотный медленный сгусток",
+      "descriptionRu": "Таблица каналов в протоколе и раздел «Мотивация» отчёта со ссылкой на osf.io/8q42f, DOI 10.17605/OSF.IO/GWA9E.",
+      "description": "Protocol channel table and the report's Motivation, citing osf.io/8q42f, DOI 10.17605/OSF.IO/GWA9E.",
+      "confidence": "low",
+      "source": "pub-yeast-protocol",
+      "where": "reports/experiment_protocol_en.md:28",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-osf-registration-no-channels",
+      "label": "The cited registration is a plan with 'Emitter A' and 'Emitter B'; no channel numbers, no clot results",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Указанная регистрация — план с «излучателем A» и «излучателем B»; номеров каналов и результатов по сгусткам нет",
+      "descriptionRu": "Текст регистрации прочитан через публичный API OSF 2026-11-20: зарегистрирована 2026-01-25 как «регистрация до создания данных»; строк CH19, CH21, channel, acceleration, deceleration в ней нет. Файлы проекта и репозиторий плазмы не проверялись.",
+      "description": "Registration text read through the public OSF API on 2026-11-20: registered 2026-01-25 as 'Registration prior to creation of data'; the strings CH19, CH21, channel, acceleration, deceleration do not occur. Project files and the plasma repository were not checked.",
+      "confidence": "high",
+      "source": "src-asrp2026chrono_osf",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-asrp-decoupling",
+      "label": "ASRP text: division rate can be decoupled from biomass, so 'faster division, same count' is valid",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Текст ASRP: темп деления можно отвязать от биомассы, значит «быстрее деление при том же числе» допустимо",
+      "descriptionRu": "Отчёт, раздел «Заключение», со ссылкой на Schmidt-Glenewinkel & Barkai 2014.",
+      "description": "Report, Conclusion, citing Schmidt-Glenewinkel & Barkai 2014.",
+      "confidence": "low",
+      "source": "pub-yeast-density-report",
+      "where": "reports/2026-06-09_density-analysis/report_en.md:203",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-src-decoupling-arrest",
+      "label": "Source: decoupling was forced genetically and the cells lost size control and arrested",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Источник: развязка вызвана генетически, клетки теряли контроль размера и останавливались",
+      "descriptionRu": "«генетические манипуляции, развязывающие деление и размер клетки, ведут к потере гомеостаза роста: клетки становятся всё мельче или всё крупнее вплоть до остановки» (аннотация, с. 1).",
+      "description": "'genetic manipulations that decouple cell division from cell size, leading to the loss of growth homeostasis, with cells becoming progressively smaller or progressively larger until arresting' (abstract, p. 1).",
+      "confidence": "high",
+      "source": "src-schmidtglenewinkel2014",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-src-kato-shrink",
+      "label": "Source: a yeast cell loses about 27 % of its area when it dies",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Источник: клетка дрожжей теряет около 27 % площади при гибели",
+      "descriptionRu": "27,2 % и 27,0 % у двух лабораторных штаммов, покадровая съёмка клеток стационарной фазы; менее 1 % выживших клеток сжались более чем на 10 %.",
+      "description": "27.2 % and 27.0 % in two laboratory strains, time-lapse of stationary-phase cells; fewer than 1 % of surviving cells shrank by more than 10 %.",
+      "confidence": "high",
+      "source": "src-kato2021",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-asrp-cielab",
+      "label": "ASRP text: a CIELAB colour model gives R²=0.81 for turbidity 'on S. cerevisiae with iPhone'",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Текст ASRP: CIELAB-модель даёт R²=0,81 для мутности «на S. cerevisiae с iPhone»",
+      "descriptionRu": "Таблица планового конвейера, без ссылки.",
+      "description": "Planned-pipeline table, no citation.",
+      "confidence": "low",
+      "source": "hyperbolic-saccharomyces",
+      "where": "guide/DATA.md:46",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-src-cielab-flasks",
+      "label": "Source: R²=0.81 was for whole shake flasks calibrated against a spectrophotometer",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Источник: R²=0,81 получен для целых колб с калибровкой по спектрофотометру",
+      "descriptionRu": "18 культивирований, более 340 парных измерений, проверка с исключением одного опыта; о чашках Петри и полях микроскопа ничего.",
+      "description": "18 cultivations, more than 340 paired measurements, leave-one-experiment-out validation; nothing about Petri dishes or microscope fields.",
+      "confidence": "high",
+      "source": "src-august2019",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-src-blind-bias",
+      "label": "Source: non-blind studies reported larger effects than their blind twins in 53 of 83 pairs",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Источник: неслепые исследования дали больший эффект, чем их слепые пары, в 53 из 83 пар",
+      "descriptionRu": "Размер эффекта выше на 0,55 ± 0,25 (g Хеджеса) у неслепого исследования в паре (с. 3). Исследования по эволюционной биологии.",
+      "description": "Effect size higher by 0.55 ± 0.25 (Hedges' g) in the non-blind study of each pair (p. 3). Evolutionary-biology studies.",
+      "confidence": "high",
+      "source": "src-holman2015",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-src-pseudoreplication",
+      "label": "Source: repeated measurements of one unit do not add to the sample size",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Источник: повторные измерения одной единицы не увеличивают размер выборки",
+      "descriptionRu": "«Псевдорепликация искусственно завышает размер выборки, а значит и доказательность утверждения, и ведёт к ложноположительным результатам» (с. 1).",
+      "description": "'Pseudoreplication artificially inflates the sample size, and thus the evidence for a scientific claim, resulting in false positives' (p. 1).",
+      "confidence": "high",
+      "source": "src-lazic2018",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-gos-null",
+      "label": "Precedent: a reported field effect on yeast division did not hold with concurrent controls",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Прецедент: заявленный эффект поля на деление дрожжей не подтвердился при одновременном контроле",
+      "descriptionRu": "Gos и др. 1997: «устойчиво значимых различий нет» между облучёнными и необлучёнными клетками, «в отличие от прежних работ». Только аннотация; диапазон частот и устройство иные, чем у излучателя ASRP.",
+      "description": "Gos et al. 1997: 'no consistently significant differences' between exposed and unexposed cells, 'in contrast to previous studies'. Abstract only; a different frequency range and device from the ASRP emitter.",
+      "confidence": "medium",
+      "source": "src-gos1997",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "src-ditalia2007",
+      "label": "Di Talia et al. 2007",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Di Talia et al. 2007",
+      "descriptionRu": "The effects of molecular noise and size control on variability in the budding yeast cell cycle. Nature. Вердикт: not checked (no full text). Цитируется как основание механизма Whi5 / контроля размера в G1 для трактовки «клетки CH19 мельче». Доступна только аннотация: контроль размера удлиняет G1 у мелких дочерних клеток. Заметка: references/notes/ditalia2007.md",
+      "description": "The effects of molecular noise and size control on variability in the budding yeast cell cycle. Nature. Verdict: not checked (no full text). Cited for the Whi5 / G1 size-control mechanism behind the CH19 'smaller cells' reading. Abstract only: size control extends G1 in small daughter cells. Reading note: references/notes/ditalia2007.md",
+      "url": "https://doi.org/10.1038/nature06072",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "cited_explicitly",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.1038/nature06072",
+      "note": "references/notes/ditalia2007.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-jorgensen2004",
+      "label": "Jorgensen et al. 2004",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Jorgensen et al. 2004",
+      "descriptionRu": "How Cells Coordinate Growth and Division. Current Biology. Вердикт: not checked (no full text). Обзор, цитируется вместе с Di Talia 2007 по связи роста и деления у дрожжей. Только аннотация. Заметка: references/notes/jorgensen2004.md",
+      "description": "How Cells Coordinate Growth and Division. Current Biology. Verdict: not checked (no full text). Review cited together with Di Talia 2007 for growth/division coupling in yeast. Abstract only. Reading note: references/notes/jorgensen2004.md",
+      "url": "https://doi.org/10.1016/j.cub.2004.11.027",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "cited_explicitly",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.1016/j.cub.2004.11.027",
+      "note": "references/notes/jorgensen2004.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-schmidtglenewinkel2014",
+      "label": "Schmidt-Glenewinkel et al. 2014",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Schmidt-Glenewinkel et al. 2014",
+      "descriptionRu": "Loss of growth homeostasis by genetic decoupling of cell division from biomass growth: implication for size control mechanisms. Molecular Systems Biology. Вердикт: overstated. Цитируется в пользу «темп деления можно отвязать от накопления биомассы». В статье это показано только при генетической перестройке транспорта глюкозы, и такие клетки теряют гомеостаз размера и останавливаются. Заметка: references/notes/schmidtglenewinkel2014.md",
+      "description": "Loss of growth homeostasis by genetic decoupling of cell division from biomass growth: implication for size control mechanisms. Molecular Systems Biology. Verdict: overstated. Cited for 'division rate can be decoupled from biomass accumulation'. The paper shows this only under genetic rewiring of glucose transport, and the decoupled cells lose size homeostasis and arrest. Reading note: references/notes/schmidtglenewinkel2014.md",
+      "url": "https://doi.org/10.15252/msb.20145513",
+      "verdict": "overstated",
+      "verified": true,
+      "relation": "cited_explicitly",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.15252/msb.20145513",
+      "note": "references/notes/schmidtglenewinkel2014.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-kato2021",
+      "label": "Kato et al. 2021",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Kato et al. 2021",
+      "descriptionRu": "Single-Cell Time-Lapse Observation Reveals Cell Shrinkage upon Cell Death in Batch Culture of Saccharomyces cerevisiae. mBio. Вердикт: matches. Источник цифры «≈27 % потери площади»: клетки сжимаются примерно на 27 % по площади в момент гибели в стационарной фазе. Заметка: references/notes/kato2021.md",
+      "description": "Single-Cell Time-Lapse Observation Reveals Cell Shrinkage upon Cell Death in Batch Culture of Saccharomyces cerevisiae. mBio. Verdict: matches. Source of the '≈27 % area loss' figure: cells shrink by about 27 % in area at the moment of death in stationary-phase batch culture. Reading note: references/notes/kato2021.md",
+      "url": "https://doi.org/10.1128/mbio.03094-21",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "cited_explicitly",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.1128/mbio.03094-21",
+      "note": "references/notes/kato2021.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-stringer2021cellpose",
+      "label": "Stringer et al. 2021",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Stringer et al. 2021",
+      "descriptionRu": "Cellpose: a generalist algorithm for cellular segmentation. Nature Methods. Вердикт: not checked (no full text). Исходная статья Cellpose; подсчёт клеток в основе заголовка (+83 %) сделан сегментацией Cellpose. Заметка: references/notes/stringer2021cellpose.md",
+      "description": "Cellpose: a generalist algorithm for cellular segmentation. Nature Methods. Verdict: not checked (no full text). Original Cellpose paper; the cell counts behind the headline (+83 %) come from Cellpose segmentation. Reading note: references/notes/stringer2021cellpose.md",
+      "url": "https://doi.org/10.1038/s41592-020-01018-x",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1038/s41592-020-01018-x",
+      "note": "references/notes/stringer2021cellpose.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-pachitariu2022cellpose2",
+      "label": "Pachitariu et al. 2022",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Pachitariu et al. 2022",
+      "descriptionRu": "Cellpose 2.0: how to train your own model. Nature Methods. Вердикт: matches. Cellpose 2.0: релиз с набором предобученных моделей. Исследование называет модель «cyto2»; сама статья не проверяет её на фото дрожжей через окуляр телефона. Заметка: references/notes/pachitariu2022cellpose2.md",
+      "description": "Cellpose 2.0: how to train your own model. Nature Methods. Verdict: matches. Cellpose 2.0: the release that ships the ensemble of pretrained models. The study names the model 'cyto2'; the paper itself does not validate that model on phone-through-eyepiece yeast photos. Reading note: references/notes/pachitariu2022cellpose2.md",
+      "url": "https://doi.org/10.1038/s41592-022-01663-4",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1038/s41592-022-01663-4",
+      "note": "references/notes/pachitariu2022cellpose2.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-stringer2025cellpose3",
+      "label": "Stringer et al. 2025",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Stringer et al. 2025",
+      "descriptionRu": "Cellpose3: one-click image restoration for improved cellular segmentation. Nature Methods. Вердикт: overstated. Восстановление изображений Cellpose3 (модель «one-click»), названо в плановом конвейере для шума съёмки через окуляр. Заметка: references/notes/stringer2025cellpose3.md",
+      "description": "Cellpose3: one-click image restoration for improved cellular segmentation. Nature Methods. Verdict: overstated. Cellpose3 image restoration ('one-click' model), named in the planned pipeline for phone-through-eyepiece noise. Reading note: references/notes/stringer2025cellpose3.md",
+      "url": "https://doi.org/10.1038/s41592-025-02595-5",
+      "verdict": "overstated",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1038/s41592-025-02595-5",
+      "note": "references/notes/stringer2025cellpose3.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-zhao2025yeastsam",
+      "label": "Zhao et al. 2025",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Zhao et al. 2025",
+      "descriptionRu": "YeastSAM: A Deep Learning Model for Accurate Segmentation of Budding Yeast Cells. bioRxiv. Вердикт: not checked (no full text). Вероятный источник «72 % точности на почкующихся клетках против 9–18 % у Cellpose3». В аннотации сказано лишь «более чем втрое выше точность на делящихся клетках»; проценты проверить не удалось. Заметка: references/notes/zhao2025yeastsam.md",
+      "description": "YeastSAM: A Deep Learning Model for Accurate Segmentation of Budding Yeast Cells. bioRxiv. Verdict: not checked (no full text). Probable source of '72% accuracy on budding cells vs 9-18% Cellpose3'. The abstract says only 'more than threefold higher accuracy in segmenting dividing cells'; the percentages could not be checked. Reading note: references/notes/zhao2025yeastsam.md",
+      "url": "https://doi.org/10.1101/2025.09.17.676679",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1101/2025.09.17.676679",
+      "note": "references/notes/zhao2025yeastsam.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-zhao2026yeastsam",
+      "label": "Zhao et al. 2026",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Zhao et al. 2026",
+      "descriptionRu": "YeastSAM: A deep learning model for accurate segmentation of yeast cells. Molecular Biology of the Cell. Вердикт: not checked (no full text). Журнальная версия препринта YeastSAM (Molecular Biology of the Cell, 2026). Заметки нет.",
+      "description": "YeastSAM: A deep learning model for accurate segmentation of yeast cells. Molecular Biology of the Cell. Verdict: not checked (no full text). Journal version of the YeastSAM preprint (Molecular Biology of the Cell, 2026). No reading note.",
+      "url": "https://doi.org/10.1091/mbc.e25-09-0454",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1091/mbc.e25-09-0454",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-midani2021amiga",
+      "label": "Midani et al. 2021",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Midani et al. 2021",
+      "descriptionRu": "AMiGA: Software for Automated Analysis of Microbial Growth Assays. mSystems. Вердикт: matches. Программа AMiGA для кривых роста (регрессия гауссовскими процессами), названа в плановом конвейере; в исследовании не запускалась. Заметка: references/notes/midani2021amiga.md",
+      "description": "AMiGA: Software for Automated Analysis of Microbial Growth Assays. mSystems. Verdict: matches. AMiGA growth-curve software (Gaussian-process regression), named in the planned pipeline; not run in this study. Reading note: references/notes/midani2021amiga.md",
+      "url": "https://doi.org/10.1128/msystems.00508-21",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "tool_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1128/msystems.00508-21",
+      "note": "references/notes/midani2021amiga.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-otsu1979",
+      "label": "Otsu 1979",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Otsu 1979",
+      "descriptionRu": "A Threshold Selection Method from Gray-Level Histograms. IEEE Transactions on Systems, Man, and Cybernetics. Вердикт: not checked (no full text). Порог Оцу, используется в оценке заполненности кадра. Заметки нет.",
+      "description": "A Threshold Selection Method from Gray-Level Histograms. IEEE Transactions on Systems, Man, and Cybernetics. Verdict: not checked (no full text). Otsu threshold, used inside the occupancy score. No reading note.",
+      "url": "https://doi.org/10.1109/tsmc.1979.4310076",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1109/tsmc.1979.4310076",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-canny1986",
+      "label": "Canny 1986",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Canny 1986",
+      "descriptionRu": "A Computational Approach to Edge Detection. IEEE Transactions on Pattern Analysis and Machine Intelligence. Вердикт: not checked (no full text). Детектор границ Канни, используется в оценке заполненности кадра. Заметки нет.",
+      "description": "A Computational Approach to Edge Detection. IEEE Transactions on Pattern Analysis and Machine Intelligence. Verdict: not checked (no full text). Canny edge detector, used inside the occupancy score. No reading note.",
+      "url": "https://doi.org/10.1109/tpami.1986.4767851",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.1109/tpami.1986.4767851",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-august2019",
+      "label": "August et al. 2019",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "August et al. 2019",
+      "descriptionRu": "Using Colour Images for Online Yeast Growth Estimation. Sensors. Вердикт: overstated. Единственная найденная статья, совпадающая с «R²=0.81 на S. cerevisiae с iPhone» для CIELAB-модели оптической плотности. Речь о фото целых колб на качалке, не о чашках Петри и не о полях микроскопа. Заметка: references/notes/august2019.md",
+      "description": "Using Colour Images for Online Yeast Growth Estimation. Sensors. Verdict: overstated. Only located paper matching 'R²=0.81 on S. cerevisiae with iPhone' for a CIELAB colour model of optical density. It is about photos of whole shake flasks, not Petri dishes or microscope fields. Reading note: references/notes/august2019.md",
+      "url": "https://doi.org/10.3390/s19040894",
+      "verdict": "overstated",
+      "verified": true,
+      "relation": "implied",
+      "theme": "image_analysis",
+      "evidence_level": "L3",
+      "doi": "10.3390/s19040894",
+      "note": "references/notes/august2019.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-kruskal1952",
+      "label": "Kruskal et al. 1952",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Kruskal et al. 1952",
+      "descriptionRu": "Use of Ranks in One-Criterion Variance Analysis. Journal of the American Statistical Association. Вердикт: not checked (no full text). Ранговый критерий Краскела–Уоллиса, источник описательного p < 1e-4 в отчёте. Заметки нет.",
+      "description": "Use of Ranks in One-Criterion Variance Analysis. Journal of the American Statistical Association. Verdict: not checked (no full text). Kruskal-Wallis rank test, the source of the report's descriptive p < 1e-4. No reading note.",
+      "url": "https://doi.org/10.1080/01621459.1952.10483441",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.1080/01621459.1952.10483441",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-spearman1904",
+      "label": "Spearman 1904",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Spearman 1904",
+      "descriptionRu": "The Proof and Measurement of Association between Two Things. The American Journal of Psychology. Вердикт: not checked (no full text). Ранговая корреляция Спирмена, используется для согласия методов (ρ 0,81–0,89). Заметки нет.",
+      "description": "The Proof and Measurement of Association between Two Things. The American Journal of Psychology. Verdict: not checked (no full text). Spearman rank correlation, used for the method-agreement figures (rho 0.81-0.89). No reading note.",
+      "url": "https://doi.org/10.2307/1412159",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.2307/1412159",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-tukey1949",
+      "label": "Tukey 1949",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Tukey 1949",
+      "descriptionRu": "Comparing Individual Means in the Analysis of Variance. Biometrics. Вердикт: not checked (no full text). Апостериорные сравнения Тьюки, названы в плановом (не выполненном) анализе. Заметки нет.",
+      "description": "Comparing Individual Means in the Analysis of Variance. Biometrics. Verdict: not checked (no full text). Tukey post-hoc comparisons, named in the planned (not run) analysis. No reading note.",
+      "url": "https://doi.org/10.2307/3001913",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.2307/3001913",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-hurlbert1984",
+      "label": "Hurlbert 1984",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Hurlbert 1984",
+      "descriptionRu": "Pseudoreplication and the Design of Ecological Field Experiments. Ecological Monographs. Вердикт: not checked (no full text). Источник термина «псевдорепликация», которым отчёт объясняет, почему p-значения по полям описательные. Заметка: references/notes/hurlbert1984.md",
+      "description": "Pseudoreplication and the Design of Ecological Field Experiments. Ecological Monographs. Verdict: not checked (no full text). Origin of the term 'pseudoreplication', which the report uses to explain why its per-field p-values are descriptive. Reading note: references/notes/hurlbert1984.md",
+      "url": "https://doi.org/10.2307/1942661",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "method_named",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.2307/1942661",
+      "note": "references/notes/hurlbert1984.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-lazic2018",
+      "label": "Lazic et al. 2018",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Lazic et al. 2018",
+      "descriptionRu": "What exactly is ‘N’ in cell culture and animal experiments?. PLOS Biology. Вердикт: matches. Открытая статья с правилом, которое применяют и отчёт, и кампания: фото одной чашки не увеличивают N; повторность — независимо обработанная единица. Заметка: references/notes/lazic2018.md",
+      "description": "What exactly is ‘N’ in cell culture and animal experiments?. PLOS Biology. Verdict: matches. Open-access statement of the rule the report and the campaign both apply: photos of one dish do not add to N; the replicate is the independently treated unit. Reading note: references/notes/lazic2018.md",
+      "url": "https://doi.org/10.1371/journal.pbio.2005282",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "implied",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.1371/journal.pbio.2005282",
+      "note": "references/notes/lazic2018.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-lazic2010",
+      "label": "Lazic 2010",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Lazic 2010",
+      "descriptionRu": "The problem of pseudoreplication in neuroscientific studies: is it affecting your analysis?. BMC Neuroscience. Вердикт: matches. Более ранняя открытая статья о псевдорепликации в лабораторной биологии. Заметка: references/notes/lazic2010.md",
+      "description": "The problem of pseudoreplication in neuroscientific studies: is it affecting your analysis?. BMC Neuroscience. Verdict: matches. Earlier open-access paper on pseudoreplication in laboratory biology. Reading note: references/notes/lazic2010.md",
+      "url": "https://doi.org/10.1186/1471-2202-11-5",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "implied",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.1186/1471-2202-11-5",
+      "note": "references/notes/lazic2010.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-schuirmann1987",
+      "label": "Schuirmann 1987",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Schuirmann 1987",
+      "descriptionRu": "A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability. Journal of Pharmacokinetics and Biopharmaceutics. Вердикт: not checked (no full text). Источник процедуры двух односторонних тестов; фраза плана «нет различия» (90 % интервал внутри 0,80–1,25) — это она с границей биоэквивалентности. Заметки нет.",
+      "description": "A comparison of the Two One-Sided Tests Procedure and the Power Approach for assessing the equivalence of average bioavailability. Journal of Pharmacokinetics and Biopharmaceutics. Verdict: not checked (no full text). Origin of the two one-sided tests procedure; the campaign plan's 'no difference' sentence (90 % interval inside 0.80-1.25) is this procedure with the bioequivalence margin. No reading note.",
+      "url": "https://doi.org/10.1007/bf01068419",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.1007/bf01068419",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-lakens2017",
+      "label": "Lakens 2017",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Lakens 2017",
+      "descriptionRu": "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses. Social Psychological and Personality Science. Вердикт: matches. Открытое руководство по тестам эквивалентности; подтверждает формулировку кампании: «нет различия» значит «различие в четверть и более исключено». Заметка: references/notes/lakens2017.md",
+      "description": "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses. Social Psychological and Personality Science. Verdict: matches. Open-access primer on equivalence tests; supports the campaign's wording that 'no difference' means 'a difference of a quarter or more is ruled out'. Reading note: references/notes/lakens2017.md",
+      "url": "https://doi.org/10.1177/1948550617697177",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "implied",
+      "theme": "statistics",
+      "evidence_level": "L3",
+      "doi": "10.1177/1948550617697177",
+      "note": "references/notes/lakens2017.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-painting1990",
+      "label": "Painting et al. 1990",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Painting et al. 1990",
+      "descriptionRu": "A quick method for estimating the percentage of viable cells in a yeast population, using methylene blue staining. World Journal of Microbiology & Biotechnology. Вердикт: not checked (no full text). Опубликованный метод оценки жизнеспособности дрожжей метиленовым синим; рецепт зарегистрированного протокола (0,1 мг/мл в 2 % цитрате натрия) в исследовании без ссылки. Заметка: references/notes/painting1990.md",
+      "description": "A quick method for estimating the percentage of viable cells in a yeast population, using methylene blue staining. World Journal of Microbiology & Biotechnology. Verdict: not checked (no full text). A published methylene-blue viability method for yeast; the registered protocol's recipe (0.1 mg/mL in 2 % sodium citrate) has no citation in the study. Reading note: references/notes/painting1990.md",
+      "url": "https://doi.org/10.1007/bf01201311",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "viability_counting",
+      "evidence_level": "L3",
+      "doi": "10.1007/bf01201311",
+      "note": "references/notes/painting1990.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-kwolekmirek2014",
+      "label": "Kwolek-Mirek et al. 2014",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Kwolek-Mirek et al. 2014",
+      "descriptionRu": "Comparison of methods used for assessing the viability and vitality of yeast cells. FEMS Yeast Research. Вердикт: not checked (no full text). Обзор методов оценки жизнеспособности и витальности дрожжей (только аннотация): это разные свойства. Заметки нет.",
+      "description": "Comparison of methods used for assessing the viability and vitality of yeast cells. FEMS Yeast Research. Verdict: not checked (no full text). Review of yeast viability and vitality methods (abstract only): viability and vitality are different things. No reading note.",
+      "url": "https://doi.org/10.1111/1567-1364.12202",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "viability_counting",
+      "evidence_level": "L3",
+      "doi": "10.1111/1567-1364.12202",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-student1907",
+      "label": "Student 1907",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Student 1907",
+      "descriptionRu": "On the Error of Counting with a Haemacytometer. Biometrika. Вердикт: not checked (no full text). Классическая статья об ошибке счёта в гемоцитометре; план кампании переходит на счётную камеру. Заметка: references/notes/student1907.md",
+      "description": "On the Error of Counting with a Haemacytometer. Biometrika. Verdict: not checked (no full text). Classic paper on the counting error of a haemacytometer; the campaign plan switches to a counting chamber. Reading note: references/notes/student1907.md",
+      "url": "https://doi.org/10.2307/2331633",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "viability_counting",
+      "evidence_level": "L3",
+      "doi": "10.2307/2331633",
+      "note": "references/notes/student1907.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-holman2015",
+      "label": "Holman et al. 2015",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Holman et al. 2015",
+      "descriptionRu": "Evidence of Experimental Bias in the Life Sciences: Why We Need Blind Data Recording. PLOS Biology. Вердикт: matches. Данные о том, что неслепые исследования дают более крупные эффекты; подкрепляет поправку кампании «никто не был ослеплён» и схему слепых счётчиков. Заметка: references/notes/holman2015.md",
+      "description": "Evidence of Experimental Bias in the Life Sciences: Why We Need Blind Data Recording. PLOS Biology. Verdict: matches. Evidence that non-blind studies report larger effects; backs the campaign's 'Nobody was blind' correction and the blind-scorer design. Reading note: references/notes/holman2015.md",
+      "url": "https://doi.org/10.1371/journal.pbio.1002190",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "implied",
+      "theme": "methodology",
+      "evidence_level": "L3",
+      "doi": "10.1371/journal.pbio.1002190",
+      "note": "references/notes/holman2015.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-nosek2018",
+      "label": "Nosek et al. 2018",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Nosek et al. 2018",
+      "descriptionRu": "The preregistration revolution. Proceedings of the National Academy of Sciences. Вердикт: matches. Определяет пререгистрацию как план, зафиксированный до данных; подкрепляет строку кампании «план, написанный после, ничего не доказывает». Заметка: references/notes/nosek2018.md",
+      "description": "The preregistration revolution. Proceedings of the National Academy of Sciences. Verdict: matches. Defines preregistration as a plan fixed before the data; backs the campaign line 'A plan written afterwards proves nothing'. Reading note: references/notes/nosek2018.md",
+      "url": "https://doi.org/10.1073/pnas.1708274114",
+      "verdict": "matches",
+      "verified": true,
+      "relation": "implied",
+      "theme": "methodology",
+      "evidence_level": "L3",
+      "doi": "10.1073/pnas.1708274114",
+      "note": "references/notes/nosek2018.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-simmons2011",
+      "label": "Simmons et al. 2011",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Simmons et al. 2011",
+      "descriptionRu": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant. Psychological Science. Вердикт: not checked (no full text). Классическая статья о гибких остановках и выборе анализа; правило кампании «без ранних подглядываний» отвечает на неё. Заметки нет.",
+      "description": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant. Psychological Science. Verdict: not checked (no full text). Classic paper on flexible stopping and analysis choices; the campaign's 'No early looks' rule addresses it. No reading note.",
+      "url": "https://doi.org/10.1177/0956797611417632",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "methodology",
+      "evidence_level": "L3",
+      "doi": "10.1177/0956797611417632",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-maccoun2015",
+      "label": "MacCoun et al. 2015",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "MacCoun et al. 2015",
+      "descriptionRu": "Blind analysis: Hide results to seek the truth. Nature. Вердикт: not checked (no full text). Комментарий о слепом анализе (скрыть метки, пока анализ не заморожен); аналитик в плане работает с группами A, B, C. Заметки нет.",
+      "description": "Blind analysis: Hide results to seek the truth. Nature. Verdict: not checked (no full text). Comment on blind analysis (hide the labels until the analysis is frozen); the plan's analyst works on groups named A, B, C. No reading note.",
+      "url": "https://doi.org/10.1038/526187a",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "methodology",
+      "evidence_level": "L3",
+      "doi": "10.1038/526187a",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-grundler1983",
+      "label": "Grundler et al. 1983",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Grundler et al. 1983",
+      "descriptionRu": "Sharp Resonances in Yeast Growth Prove Nonthermal Sensitivity to Microwaves. Physical Review Letters. Вердикт: n/a (context, no ASRP claim). Самое известное заявление о нетепловом действии электромагнитного поля на рост дрожжей. Исследование его не цитирует; дано как контекст области. Заметка: references/notes/grundler1983.md",
+      "description": "Sharp Resonances in Yeast Growth Prove Nonthermal Sensitivity to Microwaves. Physical Review Letters. Verdict: n/a (context, no ASRP claim). Best-known claim of a non-thermal electromagnetic effect on yeast growth. Not cited by the study; listed as field context. Reading note: references/notes/grundler1983.md",
+      "url": "https://doi.org/10.1103/physrevlett.51.1214",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L2",
+      "doi": "10.1103/physrevlett.51.1214",
+      "note": "references/notes/grundler1983.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-gos1997",
+      "label": "Gos et al. 1997",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Gos et al. 1997",
+      "descriptionRu": "Extremely high frequency electromagnetic fields at low power density do not affect the division of exponential phase Saccharomyces cerevisiae cells. Bioelectromagnetics. Вердикт: n/a (context, no ASRP claim). Тщательное повторение опыта типа Грундлера с одновременным контролем: устойчивой разницы нет. Ближайший опубликованный прецедент «результата, который не подтвердился». Только аннотация. Заметка: references/notes/gos1997.md",
+      "description": "Extremely high frequency electromagnetic fields at low power density do not affect the division of exponential phase Saccharomyces cerevisiae cells. Bioelectromagnetics. Verdict: n/a (context, no ASRP claim). Careful repeat of the Grundler-type experiment with concurrent controls: no consistent difference. The closest published precedent for 'a result that did not hold up'. Abstract only. Reading note: references/notes/gos1997.md",
+      "url": "https://doi.org/10.1002/(sici)1521-186x(1997)18:2<142::aid-bem7>3.0.co;2-2",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L3",
+      "doi": "10.1002/(sici)1521-186x(1997)18:2<142::aid-bem7>3.0.co;2-2",
+      "note": "references/notes/gos1997.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-mehedintu1997",
+      "label": "Mehedintu et al. 1997",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Mehedintu et al. 1997",
+      "descriptionRu": "Proliferation response of yeast Saccharomyces cerevisiae on electromagnetic field parameters. Bioelectrochemistry and Bioenergetics. Вердикт: n/a (context, no ASRP claim). Сообщает об изменении пролиферации дрожжей в зависимости от параметров поля. Только контекст. Заметки нет.",
+      "description": "Proliferation response of yeast Saccharomyces cerevisiae on electromagnetic field parameters. Bioelectrochemistry and Bioenergetics. Verdict: n/a (context, no ASRP claim). Reports yeast proliferation changes depending on field parameters. Context only. No reading note.",
+      "url": "https://doi.org/10.1016/s0302-4598(96)05184-7",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L2",
+      "doi": "10.1016/s0302-4598(96)05184-7",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-ruizgomez2004",
+      "label": "Ruiz-Gómez et al. 2004",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Ruiz-Gómez et al. 2004",
+      "descriptionRu": "Static and 50 Hz magnetic fields of 0.35 and 2.45 mT have no effect on the growth of Saccharomyces cerevisiae. Bioelectrochemistry. Вердикт: n/a (context, no ASRP claim). Нулевой результат: постоянные и 50 Гц магнитные поля 0,35 и 2,45 мТл не изменили рост дрожжей (OD600). Только аннотация. Заметка: references/notes/ruizgomez2004.md",
+      "description": "Static and 50 Hz magnetic fields of 0.35 and 2.45 mT have no effect on the growth of Saccharomyces cerevisiae. Bioelectrochemistry. Verdict: n/a (context, no ASRP claim). Null result: static and 50 Hz magnetic fields of 0.35 and 2.45 mT did not change yeast growth (OD600). Abstract only. Reading note: references/notes/ruizgomez2004.md",
+      "url": "https://doi.org/10.1016/j.bioelechem.2004.04.003",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L3",
+      "doi": "10.1016/j.bioelechem.2004.04.003",
+      "note": "references/notes/ruizgomez2004.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-novak2007",
+      "label": "Novák et al. 2007",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Novák et al. 2007",
+      "descriptionRu": "Effects of low-frequency magnetic fields on the viability of yeast Saccharomyces cerevisiae. Bioelectrochemistry. Вердикт: n/a (context, no ASRP claim). Сообщает, что поле 50 Гц до 10 мТл снизило численность дрожжей. Только аннотация. Заметка: references/notes/novak2007.md",
+      "description": "Effects of low-frequency magnetic fields on the viability of yeast Saccharomyces cerevisiae. Bioelectrochemistry. Verdict: n/a (context, no ASRP claim). Reports that a 50 Hz field up to 10 mT lowered yeast numbers. Abstract only. Reading note: references/notes/novak2007.md",
+      "url": "https://doi.org/10.1016/j.bioelechem.2006.03.029",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L2",
+      "doi": "10.1016/j.bioelechem.2006.03.029",
+      "note": "references/notes/novak2007.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-sladicekova2021",
+      "label": "Sladicekova et al. 2021",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Sladicekova et al. 2021",
+      "descriptionRu": "Biological Effects of a Low-Frequency Electromagnetic Field on Yeast Cells of the Genus Saccharomyces cerevisiae. Acta Medica Martiniana. Вердикт: n/a (context, no ASRP claim). Сообщает о тормозящем действии поля 900 Гц, 2,3 мТл на рост дрожжей в парном опыте. Только аннотация. Заметка: references/notes/sladicekova2021.md",
+      "description": "Biological Effects of a Low-Frequency Electromagnetic Field on Yeast Cells of the Genus Saccharomyces cerevisiae. Acta Medica Martiniana. Verdict: n/a (context, no ASRP claim). Reports an inhibitory effect of a 900 Hz, 2.3 mT field on yeast growth in a paired design. Abstract only. Reading note: references/notes/sladicekova2021.md",
+      "url": "https://doi.org/10.2478/acm-2021-0006",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L2",
+      "doi": "10.2478/acm-2021-0006",
+      "note": "references/notes/sladicekova2021.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-kthiri2019",
+      "label": "Kthiri et al. 2019",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Kthiri et al. 2019",
+      "descriptionRu": "Biochemical and biomolecular effects induced by a static magnetic field in Saccharomyces cerevisiae: Evidence for oxidative stress. PLOS ONE. Вердикт: n/a (context, no ASRP claim). Открытое исследование действия постоянного магнитного поля на рост и ферменты дрожжей. Только контекст; полный текст получен, но ни к одному утверждению ASRP не привязан. Заметка: references/notes/kthiri2019.md",
+      "description": "Biochemical and biomolecular effects induced by a static magnetic field in Saccharomyces cerevisiae: Evidence for oxidative stress. PLOS ONE. Verdict: n/a (context, no ASRP claim). Open-access study of a static magnetic field on yeast growth and enzymes. Context only; full text fetched but not used for any ASRP claim. Reading note: references/notes/kthiri2019.md",
+      "url": "https://doi.org/10.1371/journal.pone.0209843",
+      "verdict": "n/a (context, no ASRP claim)",
+      "verified": true,
+      "relation": "context_not_cited",
+      "theme": "emf_yeast",
+      "evidence_level": "L2",
+      "doi": "10.1371/journal.pone.0209843",
+      "note": "references/notes/kthiri2019.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-wernerwashburne1993",
+      "label": "Werner-Washburne et al. 1993",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Werner-Washburne et al. 1993",
+      "descriptionRu": "Stationary phase in the yeast Saccharomyces cerevisiae. Microbiological Reviews. Вердикт: not checked (no full text). Обзор стационарной фазы: голодающие дрожжи перестают делиться. Фон для строки кампании о том, что жидкость без питания не должна давать дрожжам заметно размножаться. Заметки нет.",
+      "description": "Stationary phase in the yeast Saccharomyces cerevisiae. Microbiological Reviews. Verdict: not checked (no full text). Review of stationary phase: starved yeast stop dividing. Background for the campaign line that a liquid without food should not let yeast multiply much. No reading note.",
+      "url": "https://doi.org/10.1128/mr.57.2.383-401.1993",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.1128/mr.57.2.383-401.1993",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-gray2004",
+      "label": "Gray et al. 2004",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Gray et al. 2004",
+      "descriptionRu": "\"Sleeping Beauty\": Quiescence in Saccharomyces cerevisiae. Microbiology and Molecular Biology Reviews. Вердикт: not checked (no full text). Обзор покоя у дрожжей. Тот же фоновый тезис, что у Werner-Washburne 1993. Заметки нет.",
+      "description": "\"Sleeping Beauty\": Quiescence in Saccharomyces cerevisiae. Microbiology and Molecular Biology Reviews. Verdict: not checked (no full text). Review of quiescence in yeast. Same background point as Werner-Washburne 1993. No reading note.",
+      "url": "https://doi.org/10.1128/mmbr.68.2.187-206.2004",
+      "verdict": "not checked (no full text)",
+      "verified": true,
+      "relation": "implied",
+      "theme": "yeast_biology",
+      "evidence_level": "L3",
+      "doi": "10.1128/mmbr.68.2.187-206.2004",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-asrp2026chrono_osf",
+      "label": "ASRP OSF registration GWA9E (2026)",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "ASRP OSF registration GWA9E (2026)",
+      "descriptionRu": "Chrono-Regulatory and Biochronal Therapeutics: A Framework for Temporal Regulation in Human Physiology. OSF Registries (OSF Preregistration), registered 2026-01-25; project osf.io/8q42f. Вердикт: misreported. Единственный источник, который исследование приводит для смысла каналов (CH19 «ускорение времени», CH21 «замедление времени») и «плазменного прецедента» направленных гипотез. Заметка: references/notes/asrp2026chrono_osf.md",
+      "description": "Chrono-Regulatory and Biochronal Therapeutics: A Framework for Temporal Regulation in Human Physiology. OSF Registries (OSF Preregistration), registered 2026-01-25; project osf.io/8q42f. Verdict: misreported. The only source the study gives for the channel meanings (CH19 'time acceleration', CH21 'time deceleration') and for the 'plasma precedent' behind its directional hypotheses. Reading note: references/notes/asrp2026chrono_osf.md",
+      "url": "https://doi.org/10.17605/OSF.IO/GWA9E",
+      "verdict": "misreported",
+      "verified": true,
+      "relation": "cited_explicitly",
+      "theme": "asrp_primary",
+      "evidence_level": "L1",
+      "doi": "10.17605/OSF.IO/GWA9E",
+      "note": "references/notes/asrp2026chrono_osf.md",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "src-asrp2026yeast_osf",
+      "label": "ASRP OSF registration vxkum (2026, not public)",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "ASRP OSF registration vxkum (2026, not public)",
+      "descriptionRu": "NOT FOUND (registration osf.io/vxkum is not publicly readable). OSF (stated in the study README: registered 2026-04-04, accepted 2026-04-07). Вердикт: not checked (no full text). Собственная пререгистрация исследования; страница кампании говорит, что план появился после подсчётов. Заметка: references/notes/asrp2026yeast_osf.md",
+      "description": "NOT FOUND (registration osf.io/vxkum is not publicly readable). OSF (stated in the study README: registered 2026-04-04, accepted 2026-04-07). Verdict: not checked (no full text). The study's own preregistration; the campaign page says the plan came after the counts. Reading note: references/notes/asrp2026yeast_osf.md",
+      "url": "https://osf.io/vxkum",
+      "verdict": "not checked (no full text)",
+      "verified": false,
+      "relation": "cited_explicitly",
+      "theme": "asrp_primary",
+      "evidence_level": "L1",
+      "note": "references/notes/asrp2026yeast_osf.md",
+      "tags": [
+        "publication"
+      ]
+    },
+    {
+      "id": "src-asrp2025kzpatent",
+      "label": "Patent application KZ 2025/1095.1 (record)",
+      "type": "publication",
+      "icon": "📄",
+      "labelRu": "Patent application KZ 2025/1095.1 (record)",
+      "descriptionRu": "Fractal Biomedical Hyperbolic Field System (patent application KZ 2025/1095.1). Kazakhstan patent application; status as written in the study: substantive examination. Вердикт: not checked (no full text). Утверждается, что аппаратура излучателя и конфигурации каналов взяты из этой заявки. Заметки нет.",
+      "description": "Fractal Biomedical Hyperbolic Field System (patent application KZ 2025/1095.1). Kazakhstan patent application; status as written in the study: substantive examination. Verdict: not checked (no full text). The emitter hardware and channel configurations are said to come from this application. No reading note.",
+      "url": null,
+      "verdict": "not checked (no full text)",
+      "verified": false,
+      "relation": "cited_explicitly",
+      "theme": "asrp_primary",
+      "evidence_level": "L1",
+      "tags": [
+        "publication"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "ev-yeast-round-1",
+      "type": "has-run",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-lab-lead",
+      "to": "ev-yeast-round-1",
+      "type": "ran",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-photographer",
+      "to": "ev-yeast-round-1",
+      "type": "photographed",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-1",
+      "to": "ds-yeast-photos",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-1",
+      "to": "ds-yeast-occupancy",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-emitter-generator",
+      "to": "ev-yeast-round-1",
+      "type": "used-in",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "ev-yeast-round-2",
+      "type": "has-run",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-lab-lead",
+      "to": "ev-yeast-round-2",
+      "type": "ran",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-photographer",
+      "to": "ev-yeast-round-2",
+      "type": "photographed",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-2",
+      "to": "ds-yeast-photos",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-2",
+      "to": "ds-yeast-occupancy",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-emitter-generator",
+      "to": "ev-yeast-round-2",
+      "type": "used-in",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "ev-yeast-round-3",
+      "type": "has-run",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-lab-lead",
+      "to": "ev-yeast-round-3",
+      "type": "ran",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-photographer",
+      "to": "ev-yeast-round-3",
+      "type": "photographed",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-3",
+      "to": "ds-yeast-photos",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-3",
+      "to": "ds-yeast-occupancy",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-emitter-generator",
+      "to": "ev-yeast-round-3",
+      "type": "used-in",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-2",
+      "to": "ds-yeast-white-counts",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-round-3",
+      "to": "ds-yeast-white-counts",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "dev-yeast-microscope-phone",
+      "to": "ds-yeast-photos",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "ds-yeast-journal-mapping",
+      "to": "ds-yeast-photos",
+      "type": "labels",
+      "direction": "directed"
+    },
+    {
+      "from": "role-yeast-lab-lead",
+      "to": "ds-yeast-journal-mapping",
+      "type": "confirmed",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-cellpose-cyto2",
+      "to": "ds-yeast-white-counts",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-yeast-occupancy",
+      "to": "ds-yeast-occupancy",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-yeast-blind-llm",
+      "to": "ds-yeast-llm-scores",
+      "type": "produced",
+      "direction": "directed"
+    },
+    {
+      "from": "ds-yeast-photos",
+      "to": "ds-yeast-llm-scores",
+      "type": "scored-into",
+      "direction": "directed"
+    },
+    {
+      "from": "ds-yeast-white-counts",
+      "to": "ds-yeast-medium-split",
+      "type": "recounted-into",
+      "direction": "directed"
+    },
+    {
+      "from": "ds-yeast-journal-mapping",
+      "to": "ds-yeast-medium-split",
+      "type": "recounted-into",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "pub-yeast-density-report",
+      "type": "published",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "pub-yeast-protocol",
+      "type": "published",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "pub-yeast-prereg-file",
+      "type": "published",
+      "direction": "directed"
+    },
+    {
+      "from": "pub-yeast-prereg-file",
+      "to": "src-asrp2026yeast_osf",
+      "type": "mirror-of-unreadable",
+      "direction": "directed"
+    },
+    {
+      "from": "campaign-yeast-result-that-flipped",
+      "to": "pub-campaign-prereg-draft",
+      "type": "published",
+      "direction": "directed"
+    },
+    {
+      "from": "campaign-yeast-result-that-flipped",
+      "to": "ev-yeast-repeat-planned",
+      "type": "funds",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-yeast-repeat-planned",
+      "to": "hyperbolic-saccharomyces",
+      "type": "replicates",
+      "direction": "directed"
+    },
+    {
+      "from": "pub-campaign-prereg-draft",
+      "to": "ev-yeast-repeat-planned",
+      "type": "plans",
+      "direction": "directed"
+    },
+    {
+      "from": "dev-neubauer-chamber",
+      "to": "ev-yeast-repeat-planned",
+      "type": "used-in",
+      "direction": "directed"
+    },
+    {
+      "from": "role-key-holder",
+      "to": "ev-yeast-repeat-planned",
+      "type": "takes-part-in",
+      "direction": "directed"
+    },
+    {
+      "from": "role-outside-counter",
+      "to": "ev-yeast-repeat-planned",
+      "type": "takes-part-in",
+      "direction": "directed"
+    },
+    {
+      "from": "role-statistician",
+      "to": "ev-yeast-repeat-planned",
+      "type": "takes-part-in",
+      "direction": "directed"
+    },
+    {
+      "from": "role-backer-scorers",
+      "to": "ev-yeast-repeat-planned",
+      "type": "takes-part-in",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-cellpose-cyto2",
+      "to": "src-stringer2021cellpose",
+      "type": "described-in",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-cellpose-cyto2",
+      "to": "src-pachitariu2022cellpose2",
+      "type": "described-in",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-yeast-occupancy",
+      "to": "src-otsu1979",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "tool-yeast-occupancy",
+      "to": "src-canny1986",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "dev-neubauer-chamber",
+      "to": "src-student1907",
+      "type": "counting-error-in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-headline-83",
+      "to": "ds-yeast-white-counts",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-medium-split",
+      "to": "ds-yeast-medium-split",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-four-dishes",
+      "to": "ds-yeast-medium-split",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "ds-yeast-occupancy",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "ev-yeast-round-1",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-sharpness",
+      "to": "ds-yeast-white-counts",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-twin-dishes",
+      "to": "ds-yeast-medium-split",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-method-agreement",
+      "to": "ds-yeast-llm-scores",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-undercount-40",
+      "to": "tool-cellpose-cyto2",
+      "type": "about",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-ch19-area",
+      "to": "ds-yeast-white-counts",
+      "type": "measured_in",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-prereg-after-data",
+      "to": "pub-yeast-prereg-file",
+      "type": "about",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-headline-83",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-method-agreement",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-undercount-40",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-ch19-area",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-asrp-decoupling",
+      "to": "pub-yeast-density-report",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-asrp-plasma-precedent",
+      "to": "pub-yeast-protocol",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-sharpness",
+      "to": "pub-campaign-prereg-draft",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-twin-dishes",
+      "to": "pub-campaign-prereg-draft",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-asrp-cielab",
+      "to": "hyperbolic-saccharomyces",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-osf-registration-no-channels",
+      "to": "src-asrp2026chrono_osf",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-decoupling-arrest",
+      "to": "src-schmidtglenewinkel2014",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-kato-shrink",
+      "to": "src-kato2021",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-cielab-flasks",
+      "to": "src-august2019",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-blind-bias",
+      "to": "src-holman2015",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-pseudoreplication",
+      "to": "src-lazic2018",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-headline-83",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-headline-83",
+      "to": "hyp-yeast-ch21-fewer-cells",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-method-agreement",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-medium-split",
+      "to": "f-yeast-headline-83",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "the pooled figure hides that the excess is in one liquid only"
+    },
+    {
+      "from": "f-yeast-four-dishes",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "weakens: four dishes against four"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "hyp-yeast-ch21-fewer-cells",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-sharpness",
+      "to": "hyp-yeast-handling-artefact",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-twin-dishes",
+      "to": "hyp-yeast-handling-artefact",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-blind-bias",
+      "to": "hyp-yeast-handling-artefact",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-pseudoreplication",
+      "to": "f-yeast-headline-83",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "398 photos are not 398 independent observations"
+    },
+    {
+      "from": "f-yeast-undercount-40",
+      "to": "f-yeast-headline-83",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "the counter's error is unmeasured"
+    },
+    {
+      "from": "f-yeast-prereg-after-data",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "the outcome was chosen after the data"
+    },
+    {
+      "from": "f-yeast-ch19-area",
+      "to": "hyp-yeast-ch19-faster-division",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-asrp-decoupling",
+      "to": "hyp-yeast-ch19-faster-division",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-decoupling-arrest",
+      "to": "f-asrp-decoupling",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-kato-shrink",
+      "to": "hyp-yeast-ch19-faster-division",
+      "type": "contradicts",
+      "direction": "directed",
+      "note": "smaller cells may be dying cells"
+    },
+    {
+      "from": "f-asrp-plasma-precedent",
+      "to": "channel-19-21-taxonomy",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "f-osf-registration-no-channels",
+      "to": "f-asrp-plasma-precedent",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-src-cielab-flasks",
+      "to": "f-asrp-cielab",
+      "type": "contradicts",
+      "direction": "directed"
+    },
+    {
+      "from": "f-gos-null",
+      "to": "ev-yeast-repeat-planned",
+      "type": "precedent-for",
+      "direction": "directed"
+    },
+    {
+      "from": "channel-17",
+      "to": "hyp-yeast-ch17-more-cells",
+      "type": "subject-of",
+      "direction": "directed"
+    },
+    {
+      "from": "channel-19-21-taxonomy",
+      "to": "hyp-yeast-ch21-fewer-cells",
+      "type": "subject-of",
+      "direction": "directed"
+    },
+    {
+      "from": "channel-19-21-taxonomy",
+      "to": "hyp-yeast-ch19-faster-division",
+      "type": "subject-of",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-headline-83",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-medium-split",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-four-dishes",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-round1-flip",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-sharpness",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-twin-dishes",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "f-yeast-prereg-after-data",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-yeast-handling-artefact",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "ds-yeast-medium-split",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "pub-yeast-density-report",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-ditalia2007",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-jorgensen2004",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-schmidtglenewinkel2014",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-kato2021",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-stringer2021cellpose",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-pachitariu2022cellpose2",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-stringer2025cellpose3",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-zhao2025yeastsam",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-zhao2026yeastsam",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-midani2021amiga",
+      "type": "uses-tool-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-otsu1979",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-canny1986",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-august2019",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-kruskal1952",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-spearman1904",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-tukey1949",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-hurlbert1984",
+      "type": "uses-method-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-lazic2018",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lazic2018",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-lazic2010",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-schuirmann1987",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-schuirmann1987",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-lakens2017",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lakens2017",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-painting1990",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-kwolekmirek2014",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-student1907",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-student1907",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-holman2015",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-holman2015",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-nosek2018",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-nosek2018",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-simmons2011",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-simmons2011",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-maccoun2015",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-maccoun2015",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-grundler1983",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-gos1997",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-mehedintu1997",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-ruizgomez2004",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-novak2007",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-sladicekova2021",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-kthiri2019",
+      "type": "field-context",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-wernerwashburne1993",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-wernerwashburne1993",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-gray2004",
+      "type": "leans-on",
+      "direction": "directed"
+    },
+    {
+      "from": "src-gray2004",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-asrp2026chrono_osf",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-asrp2026yeast_osf",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "src-asrp2025kzpatent",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "src-gos1997",
+      "to": "src-grundler1983",
+      "type": "replicates",
+      "direction": "directed"
+    },
+    {
+      "from": "f-gos-null",
+      "to": "src-gos1997",
+      "type": "sourced-from",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lakens2017",
+      "to": "src-schuirmann1987",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lazic2018",
+      "to": "src-hurlbert1984",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lazic2010",
+      "to": "src-hurlbert1984",
+      "type": "cites",
+      "direction": "directed"
+    },
+    {
+      "from": "src-zhao2026yeastsam",
+      "to": "src-zhao2025yeastsam",
+      "type": "journal-version-of",
+      "direction": "directed"
+    },
+    {
+      "from": "src-asrp2026chrono_osf",
+      "to": "hyperbolic-blood-plasma",
+      "type": "registration-of",
+      "direction": "directed"
+    },
+    {
+      "from": "src-asrp2026yeast_osf",
+      "to": "hyperbolic-saccharomyces",
+      "type": "registration-of",
+      "direction": "directed"
+    },
+    {
+      "from": "src-asrp2025kzpatent",
+      "to": "fbhfs-patent",
+      "type": "record-of",
+      "direction": "directed"
+    },
+    {
+      "from": "asrp",
+      "to": "hyperbolic-saccharomyces",
+      "type": "runs",
+      "direction": "directed"
+    },
+    {
+      "from": "asrp",
+      "to": "hyperbolic-emitter-generator",
+      "type": "built",
+      "direction": "directed"
+    },
+    {
+      "from": "asrp",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "runs",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "hyperbolic-emitter-generator",
+      "type": "uses-device",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-emitter-generator",
+      "to": "channel-17",
+      "type": "has-setting",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-emitter-generator",
+      "to": "channel-19-21-taxonomy",
+      "type": "has-setting",
+      "direction": "directed"
+    },
+    {
+      "from": "fbhfs-patent",
+      "to": "hyperbolic-emitter-generator",
+      "type": "covers",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-blood-plasma",
+      "to": "channel-19-21-taxonomy",
+      "type": "named-as-origin-of",
+      "direction": "directed"
+    },
+    {
+      "from": "hyperbolic-saccharomyces",
+      "to": "campaign-yeast-result-that-flipped",
+      "type": "used_by_campaign",
+      "direction": "directed"
+    },
+    {
+      "from": "osf",
+      "to": "src-asrp2026chrono_osf",
+      "type": "hosts",
+      "direction": "directed"
+    },
+    {
+      "from": "osf",
+      "to": "src-asrp2026yeast_osf",
+      "type": "hosts",
+      "direction": "directed"
+    }
+  ]
+}
