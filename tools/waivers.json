@@ -3,17 +3,17 @@
   {
    "check": "H3_numbers_missing",
    "match": "\"37\"",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "H3_numbers_missing",
    "match": "\"468320\"",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "H3_numbers_missing",
    "match": "\"56\"",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "S4_numbers_missing_in_en",
@@ -192,8 +192,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Eva Ovseannicova\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "1d292d05e85cda5dd9f74f07d99a0e9b7fddb42eb947bd9a30f1255f88eb6fe3"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -207,8 +209,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Galina Ovseannicova\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "5b5b8449a3bef379c5becaa428e0ef05289ac05a5ed5f5770bf1200bf98f8a15"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -242,13 +246,17 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Komarova St\"",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "match_sha256": [
+    "45ba3d1cba1996974a55a716b5cda57b5c6ca55c7074622c14df14c084015513"
+   ],
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Laboratory Assistant\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "c08c9ac7e16f6fabde6ec011ee42b97e60eee8f4b124a1912a95275ba19080cc"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -377,8 +385,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Senior Laboratory Assistant\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "20bab605a17779ec424deb0c84f99c4570929ad4501ce53ba7e8a77badc7ff8a"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -452,8 +462,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Галина Овсянникова\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "f826cd3d9b7ec79cc6f4192d698b962d92cb28b18d3ee32a231b815a31af3a02"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -482,8 +494,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Ева Овсянникова\"",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "match_sha256": [
+    "b8e25681df99200daf72f4b62d005f2050bd2a655fb59c3c689fe56d68ac4707"
+   ],
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S1_names_missing",
@@ -637,8 +651,10 @@
   },
   {
    "check": "S1_names_missing",
-   "match": "\"Ул. Комарова\"",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "match_sha256": [
+    "9a7e44fe4a2b6cfd431e2160509eb5580e58489e0aaf98227d91935f43379ee8"
+   ],
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "S1_names_missing",
@@ -898,7 +914,7 @@
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 459,",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S2_low_coverage_segments",
@@ -908,22 +924,22 @@
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 485,",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 485,",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 486,",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 486,",
-   "reason": "PII - memory-policy: the two laboratory assistants of the old team and OSF contributor lists are private persons without memory entity pages; the pages state their number and role only. The six named researchers are kept."
+   "reason": "PII - privacy: the two laboratory assistants of the old team and OSF contributor lists are private persons; the pages state their number and role only. The six named researchers are kept."
   },
   {
    "check": "S2_low_coverage_segments",
@@ -1058,7 +1074,7 @@
   {
    "check": "S2_low_coverage_segments",
    "match": "\"line\": 596,",
-   "reason": "PII - memory-policy: the residential-style postal address (Komarova St, Baikonur) of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
+   "reason": "PII - privacy: the residential-style postal address of the old Contact table is not copied to the showcase pages; it stays byte-identical in archive/README_2026-11-19_pre-showcase.md. Corporate contacts (organisation, country, website, info@asrp.tech) are kept."
   },
   {
    "check": "S2_low_coverage_segments",
